@@ -4,5 +4,11 @@
         "curso": "Ciencia y Ambiente",
         "mes": "Mayo",
         "ruta": "grado/3/ciencia/mes/mayo"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Personal Social",
+        "mes": "Mayo",
+        "ruta": "grado/3/personal_social/mes/mayo"
     }
 ]

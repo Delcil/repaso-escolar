@@ -1,0 +1,134 @@
+{
+    "titulo": "Misión de Mayo: Exploradores del Antiguo Perú",
+    "descripcion": "Viajaremos en el tiempo para conocer cómo vivían nuestros antepasados. Lee con atención y usa las pistas del historiador si las necesitas.",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Básico",
+            "pregunta": "¿Qué es la historia?",
+            "pista": "Pista del Historiador: No adivina el futuro, sino que investiga lo que ya pasó.",
+            "opciones": ["Un cuento inventado para dormir", "La ciencia que estudia y cuenta los hechos del pasado", "Una leyenda sobre monstruos", "El estudio de los planetas"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Intermedio",
+            "pregunta": "¿Cómo se llaman las personas que se dedican a investigar, ordenar y escribir la historia?",
+            "pista": "Pista del Historiador: Son como detectives del pasado.",
+            "opciones": ["Geólogos", "Astronautas", "Historiadores", "Biólogos"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Básico",
+            "pregunta": "Para conocer el pasado, usamos objetos, huacos, huesos o documentos antiguos. ¿Cómo se les llama a estos elementos?",
+            "pista": "Pista del Historiador: Son como las 'pistas' de un detective, pero en historia tienen otro nombre.",
+            "opciones": ["Fuentes históricas", "Basura antigua", "Tesoros perdidos", "Mapas del tesoro"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Avanzado",
+            "pregunta": "Si un historiador encuentra una vasija de barro (un huaco) enterrada, ¿qué tipo de fuente histórica es?",
+            "pista": "Pista del Historiador: Se puede tocar y está hecha de un material físico.",
+            "opciones": ["Fuente oral", "Fuente escrita", "Fuente material o monumental", "Fuente audiovisual"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Básico",
+            "pregunta": "Al principio, los antiguos peruanos iban de un lugar a otro buscando comida y no tenían una casa fija. ¿Cómo se les llamaba?",
+            "pista": "Pista del Historiador: Viajaban constantemente siguiendo a los animales que cazaban.",
+            "opciones": ["Sedentarios", "Nómadas", "Incas", "Campesinos"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Intermedio",
+            "pregunta": "¿Dónde vivían estos primeros pobladores nómadas para protegerse del frío y de los animales salvajes?",
+            "pista": "Pista del Historiador: Eran agujeros naturales en las montañas hechas de piedra.",
+            "opciones": ["En castillos", "En cuevas", "En carpas de plástico", "En casas de ladrillo"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué gran descubrimiento hizo que los antiguos peruanos dejaran de viajar y se quedaran a vivir en un solo lugar?",
+            "pista": "Pista del Historiador: Aprendieron que si ponían una semilla en la tierra con agua, crecía alimento.",
+            "opciones": ["La rueda", "El fuego", "La agricultura", "La electricidad"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Intermedio",
+            "pregunta": "Cuando las personas aprendieron a sembrar y construyeron sus primeras casas fijas para siempre, se volvieron...",
+            "pista": "Pista del Historiador: Significa que se sientan o establecen en un solo sitio.",
+            "opciones": ["Nómadas", "Cazadores", "Sedentarios", "Recolectores"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Culturas Preíncas I",
+            "nivel": "Básico",
+            "pregunta": "La cultura Chavín esculpía rostros aterradores de piedra con colmillos de felino y los colocaban en los muros de sus templos. ¿Cómo se llaman?",
+            "pista": "Pista del Historiador: Se parecen a las cabezas humanas, pero tienen un clavo de piedra en la parte de atrás.",
+            "opciones": ["Cabezas clavas", "Huacos retratos", "Lanzones", "Momias"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 3: Culturas Preíncas I",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué forma tiene el famoso ídolo de la cultura Chavín llamado 'Lanzón Monolítico'?",
+            "pista": "Pista del Historiador: Está clavado en el centro del templo y tiene la forma de un arma afilada gigante.",
+            "opciones": ["Un sol brillante", "Un inmenso cuchillo de piedra", "Una serpiente", "Un cóndor"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Culturas Preíncas I",
+            "nivel": "Básico",
+            "pregunta": "¿Qué cultura preínca dibujó figuras gigantes de animales como un mono, una araña y un colibrí en el desierto?",
+            "pista": "Pista del Historiador: Estas figuras son tan grandes que solo se pueden ver completas volando en avioneta.",
+            "opciones": ["Chavín", "Paracas", "Nasca", "Mochica"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Culturas Preíncas I",
+            "nivel": "Intermedio",
+            "pregunta": "Los hombres de Nasca vivían en un desierto muy seco. Para conseguir agua y cultivar, construyeron increíbles...",
+            "pista": "Pista del Historiador: Eran canales subterráneos en forma de espiral.",
+            "opciones": ["Acueductos", "Tuberías de plástico", "Represas gigantes", "Pozos mágicos"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Culturas Preíncas II",
+            "nivel": "Básico",
+            "pregunta": "La cultura Paracas es mundialmente famosa por sus hermosos y coloridos tejidos, usados para envolver a sus muertos. ¿Cómo se les llama?",
+            "pista": "Pista del Historiador: Eran telas finísimas que hoy consideramos obras de arte.",
+            "opciones": ["Mantos paracas", "Ponchos de lana", "Casacas andinas", "Telas de algodón"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Culturas Preíncas II",
+            "nivel": "Intermedio",
+            "pregunta": "Los médicos de Paracas eran muy hábiles y operaban la cabeza de los guerreros heridos en batalla. ¿Cómo se llama esta operación?",
+            "pista": "Pista del Historiador: Raspaban o cortaban un pedazo del cráneo.",
+            "opciones": ["Cirugía plástica", "Trepanaciones craneanas", "Acupuntura", "Curación mágica"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Culturas Preíncas II",
+            "nivel": "Básico",
+            "pregunta": "¿Qué cultura de la costa norte del Perú es conocida por sus 'Huacos Retrato', vasijas de cerámica que mostraban caras muy realistas?",
+            "pista": "Pista del Historiador: Podías ver si la persona en la cerámica estaba triste, alegre, riendo o enojada.",
+            "opciones": ["Chavín", "Incas", "Mochica", "Nasca"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Culturas Preíncas II",
+            "nivel": "Avanzado",
+            "pregunta": "Un famoso rey y gobernante de la cultura Mochica fue descubierto en su tumba lleno de joyas de oro y plata intactas. ¿Cómo se le conoce?",
+            "pista": "Pista del Historiador: Su tumba fue uno de los descubrimientos más grandes en la historia del Perú, encontrado en Lambayeque.",
+            "opciones": ["El Señor de los Milagros", "El Señor de Sipán", "El Inca Pachacútec", "El Rey Midas"],
+            "respuestaCorrecta": 1
+        }
+    ]
+}
