@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Repaso</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="contenedor" id="app-contenedor">
+        <div class="cabecera">
+            <h1 id="titulo-curso">Cargando Misión...</h1>
+            <p id="descripcion-curso">Por favor, espera un momento.</p>
+        </div>
+
+        <div id="error-panel" style="display: none; text-align: center; color: red; padding: 20px;">
+            <h2>Error al cargar el cuestionario</h2>
+            <p>Verifica que la URL sea correcta o que el archivo de datos exista.</p>
+        </div>
+
+        <div id="lista-preguntas">
+            </div>
+
+        <div class="evaluacion-panel" id="panel-evaluacion" style="display: none;">
+            <button class="btn-accion" id="btn-evaluar" onclick="evaluarRespuestas()">Revisar mis respuestas</button>
+            
+            <div class="resultados-finales" id="resultados-finales">
+                <h2>Resultados de la Misión</h2>
+                <div class="puntaje" id="puntaje-texto">0 / 0</div>
+                <p id="mensaje-final" style="font-size: 1.1em;"></p>
+                <button class="btn-accion" style="margin-top: 15px; background-color: var(--primary-color); color: black;" onclick="location.reload()">Volver a intentar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/motor.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+{
+    "titulo": "Misión de Mayo: Maestros del Cuerpo Humano",
+    "descripcion": "Esta es tu gran prueba mensual. Lee con calma, usa las pistas si te sientes atascado y revisa bien antes de enviar.",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Básico",
+            "pregunta": "¿Cuál es el órgano principal de nuestro cuerpo que utilizamos para respirar?",
+            "pista": "Son como dos globos rosados que se inflan y desinflan dentro de tu pecho.",
+            "opciones": ["El corazón", "El estómago", "Los pulmones", "El cerebro"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Básico",
+            "pregunta": "¿Qué gas invisible e indispensable para vivir tomamos del aire al respirar?",
+            "pista": "Es el gas que los árboles y las plantas nos regalan.",
+            "opciones": ["Dióxido de carbono", "Nitrógeno", "Helio", "Oxígeno"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Intermedio",
+            "pregunta": "El aire entra por la nariz y baja por un tubo con anillos hasta llegar a los pulmones. ¿Cómo se llama ese tubo?",
+            "pista": "Su nombre empieza con 'T' y suena parecido a 'traje'.",
+            "opciones": ["Esófago", "Tráquea", "Intestino", "Vena"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Intermedio",
+            "pregunta": "Debajo de los pulmones hay un músculo fuerte que nos ayuda a meter y sacar el aire. ¿Cuál es su nombre?",
+            "pista": "Cuando te da hipo, es porque este músculo se está moviendo de forma rara.",
+            "opciones": ["Bíceps", "Diafragma", "Corazón", "Abdomen"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Avanzado",
+            "pregunta": "Cuando soplamos el aire hacia afuera (exhalamos), estamos eliminando un gas que nuestro cuerpo ya no necesita. ¿Cuál es?",
+            "pista": "Es el mismo gas que le damos a las plantas para que ellas fabriquen su alimento.",
+            "opciones": ["Oxígeno", "Helio", "Dióxido de carbono", "Hidrógeno"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Básico",
+            "pregunta": "¿Qué órgano funciona como un motor y bombea la sangre a todo nuestro cuerpo sin detenerse?",
+            "pista": "Hace 'pum-pum' todo el día y está un poquito hacia la izquierda de tu pecho.",
+            "opciones": ["Los riñones", "El corazón", "El hígado", "Los pulmones"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Básico",
+            "pregunta": "Si te haces un raspón, sale un líquido que recorre todo tu cuerpo. ¿Qué es?",
+            "pista": "Es de color rojo y nos mantiene vivos.",
+            "opciones": ["El plasma", "La sangre", "El sudor", "La saliva"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Intermedio",
+            "pregunta": "La sangre viaja por todo nuestro cuerpo usando unos 'caminitos' o tubos. ¿Cómo se llaman?",
+            "pista": "Mírate las muñecas de las manos, ¿ves unas líneas azuladas o verdosas? Esas son parte de ellos.",
+            "opciones": ["Venas y arterias", "Huesos y músculos", "Nervios", "Tráquea y esófago"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué células de la sangre se encargan de actuar como 'camioncitos' repartiendo oxígeno por todo el cuerpo?",
+            "pista": "Su nombre indica el color que le dan a nuestra sangre.",
+            "opciones": ["Glóbulos blancos", "Plaquetas", "Glóbulos rojos", "Neuronas"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Avanzado",
+            "pregunta": "¿Cuál es la función de los glóbulos blancos en nuestra sangre?",
+            "pista": "Son como los 'soldados' o la policía de nuestro cuerpo.",
+            "opciones": ["Llevar oxígeno", "Defender el cuerpo de enfermedades", "Digerir la comida", "Mover los músculos"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Básico",
+            "pregunta": "¿Qué órgano está en nuestra cabeza y nos ayuda a pensar, aprender, soñar y recordar?",
+            "pista": "Es como la computadora principal de tu cuerpo.",
+            "opciones": ["El corazón", "El estómago", "El cráneo", "El cerebro"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Básico",
+            "pregunta": "El cerebro es tan suave como una gelatina, por lo que está protegido por un 'casco' de hueso muy duro. ¿Cómo se llama?",
+            "pista": "Lo puedes tocar si golpeas suavemente tu cabeza.",
+            "opciones": ["Cráneo", "Columna vertebral", "Costillas", "Fémur"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Intermedio",
+            "pregunta": "Hay un 'cable principal' muy importante que baja desde el cerebro por el medio de nuestra espalda. ¿Cómo se llama?",
+            "pista": "Está protegida por los huesos de tu columna.",
+            "opciones": ["Nervio óptico", "Médula espinal", "Arteria aorta", "Tráquea"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Intermedio",
+            "pregunta": "Los mensajes del cerebro viajan al resto del cuerpo por unos 'hilos' o cables eléctricos. ¿Cómo se llaman?",
+            "pista": "Te permiten sentir dolor, frío o calor en cualquier parte de la piel.",
+            "opciones": ["Venas", "Arterias", "Nervios", "Músculos"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Avanzado",
+            "pregunta": "Si tocas algo muy caliente y quitas la mano instantáneamente sin siquiera pensarlo, el sistema nervioso ha actuado usando un...",
+            "pista": "Es un movimiento rápido y automático. Suena parecido a 'reflejar'.",
+            "opciones": ["Pensamiento lento", "Reflejo", "Pulso", "Calambre"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Básico",
+            "pregunta": "¿A través de qué líquido amarillo elimina nuestro cuerpo los desechos que nuestra sangre ya no necesita?",
+            "pista": "Es lo que expulsamos cuando vamos al baño a hacer 'la número 1'.",
+            "opciones": ["Sudor", "Lágrimas", "Saliva", "Orina"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Básico",
+            "pregunta": "Tenemos dos órganos que funcionan como 'coladores' para limpiar nuestra sangre. ¿Cómo se llaman?",
+            "pista": "Tienen forma de frijoles o pallares y están en tu espalda baja.",
+            "opciones": ["Los pulmones", "Los riñones", "Los ovarios", "Los intestinos"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Intermedio",
+            "pregunta": "La orina se guarda en una especie de 'bolsita' antes de que sintamos ganas de ir al baño. ¿Cómo se llama esa bolsa?",
+            "pista": "Es como un globo elástico en tu barriga baja.",
+            "opciones": ["Estómago", "Páncreas", "Vejiga", "Vesícula"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Intermedio",
+            "pregunta": "Además de la orina, nuestro cuerpo elimina toxinas por la piel en forma de gotas de agua cuando hace calor o hacemos ejercicio. ¿Qué es?",
+            "pista": "Nos ayuda a refrescarnos.",
+            "opciones": ["Sangre", "Lágrimas", "Plasma", "Sudor"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Avanzado",
+            "pregunta": "En resumen, ¿cuál es el trabajo principal de todo el Sistema Excretor?",
+            "pista": "Piensa en lo que hace un camión de la basura en la ciudad.",
+            "opciones": ["Digerir la comida y sacar nutrientes", "Limpiar la sangre eliminando desechos", "Llevar oxígeno al cerebro", "Proteger los huesos"],
+            "respuestaCorrecta": 1
+        }
+    ]
+}
