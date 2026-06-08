@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const ruta = urlParams.get('ruta');
 
+    // RIGOR: Si no hay ruta, en lugar de error, mostramos el menú principal
     if (!ruta) {
-        mostrarError("No se especificó ninguna ruta de cuestionario en la URL.");
+        cargarMenu();
         return;
     }
 
@@ -26,6 +27,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         bancoPreguntas = datos.preguntas;
         respuestasSeleccionadas = new Array(bancoPreguntas.length).fill(null);
         
+        // Mostrar panel de cuestionario y ocultar menú
+        document.getElementById('menu-principal').style.display = 'none';
+        document.getElementById('cuestionario-panel').style.display = 'block';
+        
         renderizarPreguntas();
         document.getElementById('panel-evaluacion').style.display = 'block';
 
@@ -42,6 +47,44 @@ function mostrarError(mensaje) {
     const panelError = document.getElementById('error-panel');
     panelError.style.display = 'block';
     panelError.querySelector('p').textContent = mensaje;
+}
+
+// NUEVA FUNCIÓN: Lee el catálogo y crea los botones automáticamente
+async function cargarMenu() {
+    document.getElementById('cuestionario-panel').style.display = 'none';
+    const menuPrincipal = document.getElementById('menu-principal');
+    const listaMisiones = document.getElementById('lista-misiones');
+    
+    try {
+        const respuesta = await fetch('dato/indice.json');
+        if (!respuesta.ok) throw new Error('No se encontró el índice de cursos');
+        const catalogo = await respuesta.json();
+        
+        listaMisiones.innerHTML = ''; // Limpiar mensaje de "Cargando..."
+        
+        // Crear un botón por cada curso en el JSON
+        catalogo.forEach(item => {
+            const btn = document.createElement('button');
+            btn.className = 'btn-accion';
+            btn.style.backgroundColor = 'white';
+            btn.style.color = 'var(--secondary-color)';
+            btn.style.border = '2px solid var(--secondary-color)';
+            btn.style.padding = '20px';
+            btn.style.textAlign = 'left';
+            btn.innerHTML = `<span style="color: #666; font-size: 0.8em;">${item.grado}</span><br><strong>${item.curso} - Misión de ${item.mes}</strong>`;
+            
+            // Al hacer clic, redirige inyectando la ruta en la URL
+            btn.onclick = () => window.location.href = `?ruta=${item.ruta}`;
+            
+            listaMisiones.appendChild(btn);
+        });
+        
+        menuPrincipal.style.display = 'block';
+    } catch (error) {
+        console.error(error);
+        menuPrincipal.style.display = 'block';
+        listaMisiones.innerHTML = '<p style="color:red;">Error al cargar los cursos. Verifica que el archivo dato/indice.json exista.</p>';
+    }
 }
 
 function renderizarPreguntas() {

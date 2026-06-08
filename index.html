@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,29 +9,46 @@
 <body>
 
     <div class="contenedor" id="app-contenedor">
-        <div class="cabecera">
-            <h1 id="titulo-curso">Cargando Misión...</h1>
-            <p id="descripcion-curso">Por favor, espera un momento.</p>
-        </div>
-
-        <div id="error-panel" style="display: none; text-align: center; color: red; padding: 20px;">
-            <h2>Error al cargar el cuestionario</h2>
-            <p>Verifica que la URL sea correcta o que el archivo de datos exista.</p>
-        </div>
-
-        <div id="lista-preguntas">
+        
+        <!-- NUEVO: Panel de Menú Principal -->
+        <div id="menu-principal" style="display: none; text-align: center;">
+            <div class="cabecera">
+                <h1>Portal de Misiones Escolares</h1>
+                <p>Selecciona tu grado y curso para comenzar tu entrenamiento.</p>
             </div>
-
-        <div class="evaluacion-panel" id="panel-evaluacion" style="display: none;">
-            <button class="btn-accion" id="btn-evaluar" onclick="evaluarRespuestas()">Revisar mis respuestas</button>
-            
-            <div class="resultados-finales" id="resultados-finales">
-                <h2>Resultados de la Misión</h2>
-                <div class="puntaje" id="puntaje-texto">0 / 0</div>
-                <p id="mensaje-final" style="font-size: 1.1em;"></p>
-                <button class="btn-accion" style="margin-top: 15px; background-color: var(--primary-color); color: black;" onclick="location.reload()">Volver a intentar</button>
+            <!-- Los botones se generan aquí dinámicamente -->
+            <div id="lista-misiones" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+                Cargando misiones disponibles...
             </div>
         </div>
+
+        <!-- Panel de Cuestionario (Oculto por defecto) -->
+        <div id="cuestionario-panel" style="display: none;">
+            <div class="cabecera">
+                <button onclick="window.location.href='?'" style="float: left; background: none; border: none; color: var(--secondary-color); cursor: pointer; font-weight: bold;">← Volver al Menú</button>
+                <h1 id="titulo-curso">Cargando Misión...</h1>
+                <p id="descripcion-curso">Por favor, espera un momento.</p>
+            </div>
+
+            <div id="error-panel" style="display: none; text-align: center; color: red; padding: 20px;">
+                <h2>Error al cargar el cuestionario</h2>
+                <p>Verifica que el archivo de datos exista.</p>
+            </div>
+
+            <div id="lista-preguntas"></div>
+
+            <div class="evaluacion-panel" id="panel-evaluacion" style="display: none;">
+                <button class="btn-accion" id="btn-evaluar" onclick="evaluarRespuestas()">Revisar mis respuestas</button>
+                
+                <div class="resultados-finales" id="resultados-finales">
+                    <h2>Resultados de la Misión</h2>
+                    <div class="puntaje" id="puntaje-texto">0 / 0</div>
+                    <p id="mensaje-final" style="font-size: 1.1em;"></p>
+                    <button class="btn-accion" style="margin-top: 15px; background-color: var(--primary-color); color: black;" onclick="location.reload()">Volver a intentar</button>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script src="js/motor.js"></script>
