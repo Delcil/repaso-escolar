@@ -74,7 +74,10 @@ async function cargarMenu() {
             btn.innerHTML = `<span style="color: #666; font-size: 0.8em;">${item.grado}</span><br><strong>${item.curso} - Misión de ${item.mes}</strong>`;
             
             // Al hacer clic, redirige inyectando la ruta en la URL
-            btn.onclick = () => window.location.href = `?ruta=${item.ruta}`;
+            //btn.onclick = () => window.location.href = `?ruta=${item.ruta}`;
+
+            // Si en el JSON dice que es tipo lectura, abre lectura.html. Si no, abre index.html (como siempre).
+            btn.onclick = () => window.location.href = item.tipo === 'lectura' ? `lectura.html?ruta=${item.ruta}` : `?ruta=${item.ruta}`;
             
             listaMisiones.appendChild(btn);
         });

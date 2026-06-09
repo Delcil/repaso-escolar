@@ -10,5 +10,24 @@
         "curso": "Personal Social",
         "mes": "Mayo",
         "ruta": "grado/3/personal_social/mes/mayo"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Razonamiento Verbal",
+        "mes": "Mayo",
+        "ruta": "grado/3/razonamiento_verbal/mes/mayo"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Comunicación",
+        "mes": "Mayo",
+        "ruta": "grado/3/comunicacion/mes/mayo"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Comprensión Lectora",
+        "mes": "Mayo",
+        "ruta": "grado/3/comprension/mes/mayo",
+        "tipo": "lectura"
     }
 ]

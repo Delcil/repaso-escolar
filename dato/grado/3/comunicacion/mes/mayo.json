@@ -1,0 +1,166 @@
+{
+    "titulo": "Misión de Comunicación: Maestros del Lenguaje",
+    "descripcion": "Demuestra todo lo que sabes sobre las palabras, cómo se escriben y cómo se organizan en una oración. ¡Lee con calma y usa las pistas!",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: Adjetivos determinativos",
+            "nivel": "Básico",
+            "pregunta": "\"¡Aquel perro es muy juguetón!\". ¿Cuál es el adjetivo determinativo que señala la distancia a la que está el animal?",
+            "pista": "Pista del Lingüista: Es la palabra que nos indica que el perro está lejos del que habla.",
+            "opciones": ["perro", "juguetón", "Aquel", "muy"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Adjetivos determinativos",
+            "nivel": "Básico",
+            "pregunta": "\"Mi mochila es azul\". ¿Qué palabra es un adjetivo determinativo posesivo?",
+            "pista": "Pista del Lingüista: Es la palabra que indica a quién le pertenece el objeto.",
+            "opciones": ["azul", "mochila", "es", "Mi"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 1: Adjetivos determinativos",
+            "nivel": "Intermedio",
+            "pregunta": "¿En qué oración encontramos un adjetivo determinativo numeral?",
+            "pista": "Pista del Lingüista: Busca la oración que use una palabra para indicar una cantidad exacta de cosas.",
+            "opciones": ["El gato corre rápido", "Compré dos panes dulces", "Esa casa es inmensa", "Tu lápiz es nuevo"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Adjetivos determinativos",
+            "nivel": "Intermedio",
+            "pregunta": "\"Muchos niños salieron al recreo\". La palabra \"Muchos\" es un adjetivo determinativo...",
+            "pista": "Pista del Lingüista: No nos dice una cantidad exacta (como uno o dos), sino una cantidad vaga.",
+            "opciones": ["Numeral", "Demostrativo", "Posesivo", "Indefinido"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 1: Adjetivos determinativos",
+            "nivel": "Avanzado",
+            "pregunta": "Lee con atención y elige la opción que tiene un adjetivo demostrativo y uno posesivo juntos en la misma frase.",
+            "pista": "Pista del Lingüista: Busca una frase que señale dónde está el objeto y a la vez de quién es.",
+            "opciones": ["Esta pelota es tuya", "El carro rojo corre", "Un cuaderno nuevo", "Mi perro salta alto"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 2: Grados del adjetivo y Uso de gue/güe",
+            "nivel": "Básico",
+            "pregunta": "\"El pastel está riquísimo\". ¿En qué grado está el adjetivo \"riquísimo\"?",
+            "pista": "Pista del Lingüista: Está expresando la cualidad en su nivel más alto y exagerado.",
+            "opciones": ["Positivo", "Comparativo", "Superlativo", "Negativo"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Grados del adjetivo y Uso de gue/güe",
+            "nivel": "Básico",
+            "pregunta": "\"Mi hermano es más alto que mi primo\". ¿Qué grado del adjetivo se está usando?",
+            "pista": "Pista del Lingüista: Observa que la oración está midiendo a dos personas al mismo tiempo.",
+            "opciones": ["Positivo", "Superlativo", "Comparativo", "Igualdad"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Grados del adjetivo y Uso de gue/güe",
+            "nivel": "Intermedio",
+            "pregunta": "¿Cuál de las siguientes palabras necesita diéresis (los dos puntitos sobre la 'u') para que la 'u' suene al pronunciarla?",
+            "pista": "Pista del Lingüista: Es un ave que vive en el hielo y camina gracioso.",
+            "opciones": ["Guitarra", "Juguete", "Pingüino", "Manguera"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Grados del adjetivo y Uso de gue/güe",
+            "nivel": "Intermedio",
+            "pregunta": "Completa la palabra de manera correcta: \"El soldado antiguo fue a la ___rra\".",
+            "pista": "Pista del Lingüista: En esta palabra, la 'u' es muda, no se pronuncia.",
+            "opciones": ["güe", "gue", "gui", "güi"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Grados del adjetivo y Uso de gue/güe",
+            "nivel": "Avanzado",
+            "pregunta": "Identifica la oración que tiene un adjetivo en grado positivo y una palabra bien escrita con \"gui\".",
+            "pista": "Pista del Lingüista: El adjetivo debe ser normal (sin exagerar ni comparar) y la 'u' en la sílaba 'gui' no debe sonar.",
+            "opciones": ["El águila vuela altísimo", "El guiso está caliente", "La cigüeña es más grande que el pato", "Ese pingüino es lentísimo"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: El pronombre y Uso de x/cc",
+            "nivel": "Básico",
+            "pregunta": "\"Ella canta muy hermoso en el escenario\". ¿Cuál es el pronombre en la oración?",
+            "pista": "Pista del Lingüista: Es la palabra que reemplaza el nombre de la persona.",
+            "opciones": ["canta", "muy", "hermoso", "Ella"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 3: El pronombre y Uso de x/cc",
+            "nivel": "Básico",
+            "pregunta": "¿Qué pronombre usarías para reemplazar a \"Carlos y yo\" en una oración?",
+            "pista": "Pista del Lingüista: Te incluye a ti junto con otra persona.",
+            "opciones": ["Ellos", "Ustedes", "Nosotros", "Él"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: El pronombre y Uso de x/cc",
+            "nivel": "Intermedio",
+            "pregunta": "¿Qué palabra de la lista está escrita correctamente con \"cc\"?",
+            "pista": "Pista del Lingüista: Viene de la palabra \"director\" o de indicar hacia dónde vas.",
+            "opciones": ["Direxión", "Extranjero", "Dirección", "Examen"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: El pronombre y Uso de x/cc",
+            "nivel": "Intermedio",
+            "pregunta": "Completa la palabra correctamente: \"Hoy tengo un e___amen muy importante de matemáticas\".",
+            "pista": "Pista del Lingüista: Esta letra suena como si tuvieras una 'k' y una 's' juntas.",
+            "opciones": ["s", "c", "cc", "x"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 3: El pronombre y Uso de x/cc",
+            "nivel": "Avanzado",
+            "pregunta": "¿En qué oración hay un pronombre personal y además una palabra con \"x\" correctamente escrita?",
+            "pista": "Pista del Lingüista: Busca la oración que no tenga errores de ortografía en las sílabas con 'x' o 'cc'.",
+            "opciones": ["Yo tengo una direxión", "Él sacó buena nota en el examen", "Nosotros compramos axyón", "Tú eres exelente alumno"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Análisis morfológico",
+            "nivel": "Básico",
+            "pregunta": "En la oración \"El gato negro duerme\", ¿cuál es el sustantivo?",
+            "pista": "Pista del Lingüista: Es la palabra que nombra al animal, persona, lugar o cosa de quien se habla.",
+            "opciones": ["El", "gato", "negro", "duerme"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Análisis morfológico",
+            "nivel": "Básico",
+            "pregunta": "\"Las niñas saltan en el parque\". ¿Qué categoría gramatical es la palabra \"Las\"?",
+            "pista": "Pista del Lingüista: Es la palabra pequeña que acompaña y presenta al sustantivo indicando su género y número.",
+            "opciones": ["Sustantivo", "Adjetivo", "Verbo", "Artículo"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 4: Análisis morfológico",
+            "nivel": "Intermedio",
+            "pregunta": "En la oración \"Ella tiene un cuaderno rojo\", ¿qué función cumple la palabra \"rojo\"?",
+            "pista": "Pista del Lingüista: Es una palabra que nos dice cómo es o cómo está el sustantivo (el cuaderno).",
+            "opciones": ["Verbo", "Artículo", "Pronombre", "Adjetivo"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 4: Análisis morfológico",
+            "nivel": "Avanzado",
+            "pregunta": "Analiza las palabras de la siguiente oración: \"Los perros bravos ladran\". ¿Cuál es el orden morfológico correcto?",
+            "pista": "Pista del Lingüista: Identifica qué es 'Los', luego qué es 'perros', luego 'bravos' y al final la acción 'ladran'.",
+            "opciones": ["Artículo - sustantivo - adjetivo - verbo", "Sustantivo - artículo - verbo - adjetivo", "Verbo - sustantivo - artículo - adjetivo", "Pronombre - adjetivo - sustantivo - verbo"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Análisis morfológico",
+            "nivel": "Avanzado",
+            "pregunta": "Lee la siguiente oración: \"Nosotros leímos un cuento divertido\". ¿Cuál de estas palabras funciona como el pronombre de la oración?",
+            "pista": "Pista del Lingüista: Es la palabra que está tomando el lugar de los nombres de varias personas que hicieron la acción.",
+            "opciones": ["divertido", "cuento", "leímos", "Nosotros"],
+            "respuestaCorrecta": 3
+        }
+    ]
+}

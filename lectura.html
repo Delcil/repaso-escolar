@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprensión Lectora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .lectura-bloque {
+            background-color: #fffdf2;
+            border-left: 6px solid #e0c96c;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+            font-size: 1.15em;
+            line-height: 1.6;
+            color: #444;
+        }
+        .lectura-bloque p { margin-bottom: 15px; }
+        .lectura-titulo {
+            color: #8b6e00;
+            margin-top: 0;
+            border-bottom: 2px dashed #e0c96c;
+            padding-bottom: 10px;
+        }
+        .preguntas-grupo { margin-bottom: 60px; }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="cabecera">
+            <button onclick="window.location.href='index.html'" style="float: left; background: none; border: none; color: var(--secondary-color); cursor: pointer; font-weight: bold;">← Volver al Menú</button>
+            <h1 id="titulo-curso">Cargando Lecturas...</h1>
+            <p id="descripcion-curso">Por favor, espera un momento.</p>
+        </div>
+
+        <div id="lista-lecturas">
+            </div>
+
+        <div class="evaluacion-panel" id="panel-evaluacion" style="display: none;">
+            <button class="btn-accion" id="btn-evaluar" onclick="evaluarRespuestas()">Revisar mis resultados de lectura</button>
+            
+            <div class="resultados-finales" id="resultados-finales">
+                <h2>Resultados de la Misión</h2>
+                <div class="puntaje" id="puntaje-texto">0 / 0</div>
+                <p id="mensaje-final" style="font-size: 1.1em;"></p>
+                <button class="btn-accion" style="margin-top: 15px; background-color: var(--primary-color); color: black;" onclick="location.reload()">Volver a intentar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let datosLecturas = [];
+        let totalPreguntas = 0;
+        let estadoRespuestas = {}; 
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const ruta = urlParams.get('ruta');
+
+            if (!ruta) {
+                document.getElementById('lista-lecturas').innerHTML = "<p style='text-align:center; color:red;'>No se especificó ninguna ruta.</p>";
+                return;
+            }
+
+            try {
+                const respuesta = await fetch(`dato/${ruta}.json`);
+                if (!respuesta.ok) throw new Error('Archivo no encontrado');
+                const datos = await respuesta.json();
+                
+                document.getElementById('titulo-curso').textContent = datos.titulo;
+                document.getElementById('descripcion-curso').textContent = datos.descripcion;
+                
+                datosLecturas = datos.lecturas;
+                renderizarLecturas();
+                document.getElementById('panel-evaluacion').style.display = 'block';
+
+            } catch (error) {
+                console.error(error);
+                document.getElementById('lista-lecturas').innerHTML = "<p style='text-align:center; color:red;'>Error al cargar el archivo de lectura.</p>";
+            }
+        });
+
+        function renderizarLecturas() {
+            const contenedor = document.getElementById('lista-lecturas');
+            contenedor.innerHTML = '';
+            
+            let idPreguntaGlobal = 0;
+
+            datosLecturas.forEach((lectura, iLectura) => {
+                // 1. Crear bloque de lectura
+                const bloqueLectura = document.createElement('div');
+                bloqueLectura.className = 'lectura-bloque';
+                
+                let parrafosHTML = lectura.parrafos.map(p => `<p>${p}</p>`).join('');
+                bloqueLectura.innerHTML = `<h2 class="lectura-titulo">${lectura.tituloLectura}</h2>${parrafosHTML}`;
+                contenedor.appendChild(bloqueLectura);
+
+                // 2. Crear grupo de preguntas para esta lectura
+                const grupoPreguntas = document.createElement('div');
+                grupoPreguntas.className = 'preguntas-grupo';
+
+                lectura.preguntas.forEach((item) => {
+                    const idActual = idPreguntaGlobal++;
+                    totalPreguntas++;
+                    estadoRespuestas[idActual] = { respondido: null, correcta: item.respuestaCorrecta };
+
+                    const tarjeta = document.createElement('div');
+                    tarjeta.className = 'tarjeta-pregunta';
+                    tarjeta.innerHTML = `
+                        <div class="pregunta-texto">${idActual + 1}. ${item.pregunta}</div>
+                        <button class="btn-pista" onclick="togglePista(${idActual})">👁️ Ver Pista</button>
+                        <div class="pista-texto" id="pista-${idActual}">${item.pista}</div>
+                        <div class="opciones" id="opciones-${idActual}"></div>
+                    `;
+                    grupoPreguntas.appendChild(tarjeta);
+
+                    const contenedorOpciones = tarjeta.querySelector(`#opciones-${idActual}`);
+                    item.opciones.forEach((opcion, optIndex) => {
+                        const btn = document.createElement('button');
+                        btn.className = 'opcion';
+                        btn.id = `btn-${idActual}-${optIndex}`;
+                        btn.textContent = opcion;
+                        btn.onclick = () => seleccionarOpcion(idActual, optIndex);
+                        contenedorOpciones.appendChild(btn);
+                    });
+                });
+
+                contenedor.appendChild(grupoPreguntas);
+            });
+        }
+
+        function togglePista(index) {
+            const pista = document.getElementById(`pista-${index}`);
+            pista.style.display = (pista.style.display === 'block') ? 'none' : 'block';
+        }
+
+        function seleccionarOpcion(idActual, optIndex) {
+            if (estadoRespuestas[idActual].respondido !== null) return; 
+
+            estadoRespuestas[idActual].respondido = optIndex;
+            const correcta = estadoRespuestas[idActual].correcta;
+            
+            const botones = document.getElementById(`opciones-${idActual}`).getElementsByClassName('opcion');
+            for (let btn of botones) btn.disabled = true;
+
+            const btnSeleccionado = document.getElementById(`btn-${idActual}-${optIndex}`);
+            const btnCorrecto = document.getElementById(`btn-${idActual}-${correcta}`);
+
+            if (optIndex === correcta) {
+                btnSeleccionado.classList.add('correcto');
+            } else {
+                btnSeleccionado.classList.add('incorrecto');
+                btnCorrecto.classList.add('correcto');
+            }
+            verificarProgreso();
+        }
+
+        function verificarProgreso() {
+            let todasRespondidas = Object.values(estadoRespuestas).every(r => r.respondido !== null);
+            if (todasRespondidas) document.getElementById('btn-evaluar').textContent = "Ver mi resultado final";
+        }
+
+        function evaluarRespuestas() {
+            let faltan = Object.values(estadoRespuestas).some(r => r.respondido === null);
+            if (faltan) {
+                alert("¡Espera! Aún te faltan preguntas por responder. Revisa los textos.");
+                return;
+            }
+
+            let puntaje = 0;
+            Object.values(estadoRespuestas).forEach(r => {
+                if (r.respondido === r.correcta) puntaje++;
+            });
+
+            document.getElementById('btn-evaluar').style.display = 'none';
+            document.getElementById('resultados-finales').style.display = 'block';
+            document.getElementById('puntaje-texto').textContent = `${puntaje} / ${totalPreguntas}`;
+            
+            let porcentaje = (puntaje / totalPreguntas) * 100;
+            let mensaje = porcentaje === 100 ? "¡Excelente nivel de lectura!" : 
+                          porcentaje >= 60 ? "¡Buen trabajo leyendo!" : "Hay que leer un poco más despacio la próxima vez.";
+            document.getElementById('mensaje-final').textContent = mensaje;
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

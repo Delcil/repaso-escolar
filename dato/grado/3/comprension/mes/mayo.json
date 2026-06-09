@@ -1,0 +1,166 @@
+{
+    "titulo": "Misión de Lectura: Grandes Aventuras",
+    "descripcion": "Lee cada historia con mucha atención. Tómate tu tiempo para entender lo que pasa antes de responder las preguntas de abajo.",
+    "lecturas": [
+        {
+            "tituloLectura": "1. El Rescate en el Bosque Verde",
+            "parrafos": [
+                "Era una mañana soleada cuando Ash y Pikachu caminaban por el Bosque Verde. De repente, escucharon un sonido extraño que venía detrás de unos arbustos gigantes. Pikachu movió sus largas orejas, alertando a su entrenador de que alguien necesitaba ayuda.",
+                "Al acercarse con cuidado, descubrieron a un pequeño Eevee. Su patita trasera estaba atrapada bajo la pesada rama de un árbol que se había caído durante la tormenta de la noche anterior. El Eevee los miraba con ojos asustados, intentando soltarse sin éxito.",
+                "Ash actuó rápido. '¡Pikachu, usa Cola Férrea en la rama!', ordenó. Con un salto ágil, el Pokémon amarillo partió la madera en dos. El Eevee, libre por fin, corrió feliz en círculos y compartió unas bayas dulces con sus nuevos amigos como agradecimiento."
+            ],
+            "preguntas": [
+                {
+                    "pregunta": "¿En qué momento del día ocurre la historia?",
+                    "pista": "Vuelve a leer la primera línea del texto.",
+                    "opciones": ["En la tarde", "En la noche", "En la mañana", "Al mediodía"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿Qué problema tenía el Eevee?",
+                    "pista": "Piensa en por qué no podía moverse de los arbustos.",
+                    "opciones": ["Estaba perdido y no encontraba su casa", "Su patita estaba atrapada bajo una rama", "Tenía mucha hambre", "Estaba escondido jugando a las escondidas"],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "pregunta": "¿Por qué se había caído la pesada rama del árbol?",
+                    "pista": "Busca la causa en el segundo párrafo.",
+                    "opciones": ["Porque Pikachu la rompió", "Por una tormenta la noche anterior", "Porque el árbol era muy viejo", "Por un temblor muy fuerte"],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "pregunta": "¿Cómo liberó Pikachu al Eevee?",
+                    "pista": "Recuerda el movimiento o ataque que usó.",
+                    "opciones": ["Empujando la rama con sus manos", "Llamando a otros Pokémon", "Usando el ataque Cola Férrea", "Lanzando un rayo eléctrico"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿Qué hizo el Eevee para agradecer que lo salvaron?",
+                    "pista": "Fíjate en el final de la historia.",
+                    "opciones": ["Les dio unas bayas dulces", "Se fue corriendo a su casa", "Se metió en una pokébola", "Los guio por el bosque"],
+                    "respuestaCorrecta": 0
+                }
+            ]
+        },
+        {
+            "tituloLectura": "2. El Cóndor Valiente",
+            "parrafos": [
+                "En las zonas más altas y frías de los Andes, cerca de los nevados de Pasco, vivía un joven cóndor llamado Kusi. A diferencia de los demás cóndores de su bandada que amaban planear entre las nubes, Kusi le tenía un gran miedo a las alturas. Prefería caminar por las rocas buscando comida.",
+                "Un día, un zorro travieso acorraló a Kusi al borde de un precipicio. El cóndor no tenía escapatoria. Cerró los ojos con fuerza, sintiendo el viento helado golpear sus plumas. Recordó lo que su madre siempre le decía: 'El viento no es tu enemigo, es el camino invisible que te sostiene'.",
+                "Tomando valor, Kusi extendió sus enormes alas negras. En lugar de caer, sintió cómo una fuerte corriente de aire frío lo levantaba hacia el cielo. Abrió los ojos y vio las montañas desde lo alto, sintiéndose invencible. Había superado su miedo y el zorro quedó muy abajo, mirándolo sorprendido."
+            ],
+            "preguntas": [
+                {
+                    "pregunta": "¿Qué miedo secreto tenía el cóndor Kusi?",
+                    "pista": "A diferencia de las demás aves de su especie, a él no le gustaba algo.",
+                    "opciones": ["Le tenía miedo a los zorros", "Le tenía miedo al frío", "Le tenía miedo a las alturas", "Le tenía miedo a volar rápido"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿Qué animal acorraló a Kusi al borde del precipicio?",
+                    "pista": "Busca al personaje que causó el problema en el segundo párrafo.",
+                    "opciones": ["Un puma", "Un zorro", "Un águila", "Un oso"],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "pregunta": "¿Qué consejo de su madre recordó Kusi en el momento de peligro?",
+                    "pista": "Piensa en cómo ella le enseñó a ver el viento.",
+                    "opciones": ["Que debe atacar con sus garras", "Que el viento es un camino invisible que lo sostiene", "Que debe esconderse en las rocas", "Que pida ayuda gritando muy fuerte"],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "pregunta": "¿Qué pasó cuando Kusi extendió sus alas?",
+                    "pista": "En lugar de caerse por el borde, ¿qué hizo el aire?",
+                    "opciones": ["El viento lo empujó al suelo", "Una corriente de aire lo levantó hacia el cielo", "El zorro lo atrapó de un salto", "Sus alas se congelaron por el frío"],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "pregunta": "Según la historia, ¿cuál es el mensaje principal?",
+                    "pista": "Piensa en cómo termina Kusi respecto al problema que tenía al inicio.",
+                    "opciones": ["Los zorros son muy peligrosos", "Es mejor caminar que volar", "Debemos enfrentar nuestros miedos para descubrir de qué somos capaces", "Las montañas de los Andes son muy altas y frías"],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        },
+        {
+            "tituloLectura": "3. El Gran Invento de Maya",
+            "parrafos": [
+                "A Maya le encantaba desarmar juguetes. Su habitación estaba llena de tuercas, cables de colores y piezas de plástico. Su gran sueño era construir un pequeño robot que pudiera ordenar su cuarto automáticamente, para así tener más tiempo libre para jugar.",
+                "Durante una semana, unió cajas de cartón, pegamento y el motor de un viejo carro a control remoto. Cuando por fin conectó los cables a la batería, el robot comenzó a zumbar. Sin embargo, en lugar de ordenar, el robot empezó a girar como un trompo, lanzando la ropa y los libros por los aires.",
+                "En lugar de enojarse o llorar, Maya comenzó a reír a carcajadas. Se dio cuenta de que había conectado las ruedas al revés. Aprendió que los errores de los inventores no son fracasos, sino pasos necesarios para entender cómo funcionan las cosas."
+            ],
+            "preguntas": [
+                {
+                    "pregunta": "¿Cuál era el gran sueño de Maya?",
+                    "pista": "Piensa en lo que quería lograr en su habitación.",
+                    "opciones": ["Comprar un carro a control remoto", "Ser dueña de una juguetería", "Construir un robot para ordenar su cuarto", "Aprender a dibujar máquinas"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿De dónde sacó Maya el motor para su invento?",
+                    "pista": "Busca qué objeto antiguo desarmó.",
+                    "opciones": ["De un reloj de pared", "De una computadora rota", "De un viejo carro a control remoto", "De un avión de juguete"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿Qué hizo el robot cuando Maya lo encendió por primera vez?",
+                    "pista": "El robot no hizo lo que ella esperaba. ¿Qué hizo en la habitación?",
+                    "opciones": ["Se apagó inmediatamente", "Giró como trompo desordenando todo", "Dobló la ropa perfectamente", "Salió caminando por la puerta"],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "pregunta": "¿Por qué el robot funcionó mal?",
+                    "pista": "Al final, ella descubre un error en la construcción.",
+                    "opciones": ["Le faltaban baterías nuevas", "El motor estaba roto", "Había conectado las ruedas al revés", "Usó cajas de cartón muy pesadas"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿Qué importante lección aprendió Maya ese día?",
+                    "pista": "Piensa en cómo reaccionó al ver el desorden.",
+                    "opciones": ["Que los inventores no cometen errores", "Que es mejor que su mamá le ordene el cuarto", "Que los errores son necesarios para aprender", "Que los robots de cartón nunca funcionan"],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        },
+        {
+            "tituloLectura": "4. El Viaje de la Semilla Viajera",
+            "parrafos": [
+                "Una pequeña semilla de diente de león se soltó de su flor y comenzó a flotar impulsada por la suave brisa de la tarde. Su objetivo era muy claro: quería encontrar el lugar perfecto, húmedo y tranquilo, para echar raíces y convertirse en una hermosa planta amarilla.",
+                "Primero, aterrizó sobre el techo de una casa. 'Aquí hace demasiado calor y está muy duro', pensó la semilla, así que esperó a que el viento la soplara de nuevo. Luego, cayó justo en medio de un charco de lodo profundo. '¡Ay, aquí hay demasiada agua, me voy a ahogar!', se quejó asustada.",
+                "Finalmente, un perrito pasó corriendo por el charco, levantó agua y la semilla voló hasta caer en la tierra suave de un jardín bien cuidado. Sintió el abrazo de la tierra fresca y la sombra de un árbol. 'Al fin', suspiró feliz, lista para empezar a crecer."
+            ],
+            "preguntas": [
+                {
+                    "pregunta": "¿Qué tipo de planta quería ser la semilla cuando creciera?",
+                    "pista": "Es una planta de color amarillo mencionada en el primer párrafo.",
+                    "opciones": ["Un girasol gigante", "Una rosa roja", "Un diente de león", "Un árbol frutal"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿Por qué la semilla no quiso quedarse a vivir en el techo de la casa?",
+                    "pista": "Recuerda lo que sintió al tocar el techo.",
+                    "opciones": ["Porque estaba muy alto", "Porque hacía mucho calor y era muy duro", "Porque había muchos pájaros", "Porque le daba miedo la altura"],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "pregunta": "¿Cuál fue el segundo lugar donde aterrizó la semilla?",
+                    "pista": "Era un lugar donde casi se ahoga.",
+                    "opciones": ["En el techo de una casa", "En un jardín bien cuidado", "Sobre el lomo de un perrito", "En medio de un charco de lodo"],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "pregunta": "¿Cómo logró salir la semilla del charco de lodo?",
+                    "pista": "Un animal la ayudó sin darse cuenta.",
+                    "opciones": ["Vino un pájaro y la rescató", "El sol secó el charco rápidamente", "Un perrito pasó corriendo y la hizo volar", "Un niño la recogió con su zapato"],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "pregunta": "¿Cómo era el lugar perfecto donde la semilla se quedó finalmente?",
+                    "pista": "Describe las características del último lugar de la historia.",
+                    "opciones": ["Seco y caluroso", "Tierra suave y fresca bajo la sombra de un árbol", "Lleno de agua como un charco profundo", "Duro como el techo de una casa"],
+                    "respuestaCorrecta": 1
+                }
+            ]
+        }
+    ]
+}

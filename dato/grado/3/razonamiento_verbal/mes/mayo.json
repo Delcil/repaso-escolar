@@ -1,0 +1,166 @@
+{
+    "titulo": "Misión de RV: Detectives de Palabras",
+    "descripcion": "Lee con mucho cuidado cada micro-texto y analiza las palabras. Usa las pistas si necesitas ayuda para resolver el misterio.",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: Comprensión de lectura I",
+            "nivel": "Básico",
+            "pregunta": "Lee esto: 'Pikachu encontró una baya roja en el bosque y se la regaló a su amigo Charmander'. ¿Quién encontró la baya roja?",
+            "pista": "Pista del Detective: Vuelve a leer la primera palabra de la historia.",
+            "opciones": ["Charmander", "Pikachu", "El bosque", "Un entrenador"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Comprensión de lectura I",
+            "nivel": "Básico",
+            "pregunta": "Lee esto: 'El veloz Squirtle nadó por el río cristalino para llegar temprano a la escuela'. ¿Por dónde nadó Squirtle?",
+            "pista": "Pista del Detective: Busca el lugar exacto que menciona la lectura.",
+            "opciones": ["Por el mar oscuro", "Por la piscina", "Por el río cristalino", "Por el lago azul"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Comprensión de lectura I",
+            "nivel": "Intermedio",
+            "pregunta": "Lee esto: 'Ash despertó temprano, guardó las pokébolas en su mochila y salió corriendo a entrenar'. ¿Qué hizo Ash justo ANTES de salir a entrenar?",
+            "pista": "Pista del Detective: Fíjate en el orden de las acciones que hizo el personaje.",
+            "opciones": ["Despertó temprano", "Tomó desayuno", "Atrapó un Pokémon", "Guardó las pokébolas"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 1: Comprensión de lectura I",
+            "nivel": "Intermedio",
+            "pregunta": "Lee esto: 'Bulbasaur estaba muy cansado después de jugar todo el día bajo el sol, así que durmió bajo un árbol'. ¿Por qué se durmió?",
+            "pista": "Pista del Detective: Busca la razón o el motivo de la acción.",
+            "opciones": ["Porque era de noche", "Porque estaba cansado de jugar", "Porque le gustaba el árbol", "Porque tenía mucha hambre"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Comprensión de lectura I",
+            "nivel": "Avanzado",
+            "pregunta": "Lee esto: 'Aunque la cueva estaba muy oscura y se escuchaban ruidos extraños, el entrenador encendió su linterna y siguió caminando'. ¿Cómo era el entrenador?",
+            "pista": "Pista del Detective: No lo dice directamente, pero debes deducir su personalidad por lo que hizo.",
+            "opciones": ["Miedoso y tímido", "Valiente y decidido", "Molesto y renegón", "Triste y cansado"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Comprensión de textos",
+            "nivel": "Básico",
+            "pregunta": "Deduce lo que pasará: 'Snorlax comió cincuenta manzanas, bostezó fuertemente y cerró los ojos junto al camino'. ¿Qué va a hacer Snorlax?",
+            "pista": "Pista del Detective: Piensa en lo que hace la gente cuando bosteza y cierra los ojos.",
+            "opciones": ["Va a correr", "Va a comer más", "Va a dormir", "Va a cantar"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Comprensión de textos",
+            "nivel": "Básico",
+            "pregunta": "Deduce lo que pasará: 'El cielo se puso gris oscuro, empezaron a caer gotas frías y los Pidgey volaron a esconderse en sus nidos'. ¿Qué estaba a punto de pasar?",
+            "pista": "Pista del Detective: ¿Qué clima tiene nubes grises y gotas frías?",
+            "opciones": ["Iba a salir el sol", "Iba a llover", "Iba a nevar", "Iba a anochecer"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Comprensión de textos",
+            "nivel": "Intermedio",
+            "pregunta": "Lee: 'Meowth miró su alcancía vacía, suspiró y decidió buscar un trabajo ayudando a limpiar en la tienda'. ¿Por qué Meowth buscó trabajo?",
+            "pista": "Pista del Detective: Relaciona la alcancía vacía con su decisión.",
+            "opciones": ["Porque le gustaba limpiar", "Porque quería hacer amigos", "Porque no tenía dinero", "Porque la tienda estaba sucia"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Comprensión de textos",
+            "nivel": "Intermedio",
+            "pregunta": "Adivinanza de texto: 'En esta época del año, las hojas de los árboles se ponen amarillas, caen al suelo y el viento sopla más frío cada tarde'. ¿De qué estación hablamos?",
+            "pista": "Pista del Detective: Es la estación que está antes del invierno.",
+            "opciones": ["El verano", "La primavera", "El otoño", "El invierno"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Comprensión de textos",
+            "nivel": "Avanzado",
+            "pregunta": "Lee: 'El equipo trabajó unido: uno construyó el techo, otro pintó y el último plantó flores. Al final, todos sonrieron al ver su obra'. ¿Cuál es el mensaje o idea principal?",
+            "pista": "Pista del Detective: Concéntrate en lo que lograron al hacerlo 'unidos'.",
+            "opciones": ["Construir casas es muy aburrido", "El trabajo en equipo da buenos resultados", "Solo una persona debe trabajar", "Las flores son bonitas"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Introducción al campo semántico",
+            "nivel": "Básico",
+            "pregunta": "Rojo, azul, amarillo, verde... ¿A qué campo semántico pertenecen estas palabras?",
+            "pista": "Pista del Detective: Es el nombre del grupo al que pertenecen todas estas palabras.",
+            "opciones": ["Juguetes", "Útiles escolares", "Colores", "Planetas"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Introducción al campo semántico",
+            "nivel": "Básico",
+            "pregunta": "¿Qué palabra NO pertenece al campo semántico de 'Muebles de la casa'?",
+            "pista": "Pista del Detective: Busca el intruso, algo que no pondrías dentro de tu sala o cuarto.",
+            "opciones": ["Silla", "Mesa", "Árbol", "Cama"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Introducción al campo semántico",
+            "nivel": "Intermedio",
+            "pregunta": "Lápiz, borrador, cuaderno, regla... ¿Qué palabra podemos agregar a este mismo grupo?",
+            "pista": "Pista del Detective: Tienes que buscar otro útil escolar.",
+            "opciones": ["Tajador", "Zapato", "Manzana", "Perro"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 3: Introducción al campo semántico",
+            "nivel": "Intermedio",
+            "pregunta": "Si el campo semántico es 'Deportes con pelota', ¿cuál de estas opciones debes elegir para que pertenezca al grupo?",
+            "pista": "Pista del Detective: Piensa en cómo se juega cada uno de los deportes de la lista.",
+            "opciones": ["Natación", "Básquet", "Atletismo", "Ciclismo"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Introducción al campo semántico",
+            "nivel": "Avanzado",
+            "pregunta": "¿Cuál es el nombre del campo semántico para las siguientes palabras: 'alegría, tristeza, enojo, miedo'?",
+            "pista": "Pista del Detective: Son las cosas que sentimos en nuestro interior.",
+            "opciones": ["Acciones", "Emociones o sentimientos", "Enfermedades", "Cualidades físicas"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Corrección ortográfica",
+            "nivel": "Básico",
+            "pregunta": "¿Qué oración está escrita correctamente y no tiene ningún error?",
+            "pista": "Pista del Detective: Fíjate en cómo se escribe la palabra 'perro' y 'fuerte'.",
+            "opciones": ["El pero ladra fuerte.", "Hel perro ladra fuerte.", "El perro ladra furte.", "El perro ladra fuerte."],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 4: Corrección ortográfica",
+            "nivel": "Básico",
+            "pregunta": "Encuentra la palabra que está MAL escrita:",
+            "pista": "Pista del Detective: Piensa en el animal que nos da leche, ¿con qué letra se escribe?",
+            "opciones": ["Vaso", "Bote", "Baca", "Ventana"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Corrección ortográfica",
+            "nivel": "Intermedio",
+            "pregunta": "¿Cuál de las siguientes palabras DEBE llevar tilde (acento ortográfico)?",
+            "pista": "Pista del Detective: Es una palabra aguda (suena fuerte al final) y termina en la letra 'n'.",
+            "opciones": ["Corazon", "Mesa", "Gato", "Papel"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Corrección ortográfica",
+            "nivel": "Intermedio",
+            "pregunta": "Completa la oración sin cometer faltas de ortografía: 'Ayer fuimos a ________ al parque'.",
+            "pista": "Pista del Detective: La letra 'j' hace el sonido fuerte aquí.",
+            "opciones": ["gugar", "jurgar", "yugar", "jugar"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 4: Corrección ortográfica",
+            "nivel": "Avanzado",
+            "pregunta": "¿En qué grupo TODAS las palabras están escritas de forma correcta?",
+            "pista": "Pista del Detective: Recuerda la regla: las palabras que empiezan con los sonidos 'ie' y 'ue' siempre llevan una letra especial al inicio.",
+            "opciones": ["Ielo, uevo, ueso", "Hielo, uevo, hueso", "Hielo, huevo, hueso", "Hielo, huevo, ueso"],
+            "respuestaCorrecta": 2
+        }
+    ]
+}
