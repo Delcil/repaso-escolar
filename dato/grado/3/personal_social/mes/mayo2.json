@@ -1,0 +1,342 @@
+{
+    "titulo": "Misión Épica: Expertos en Historia del Perú",
+    "descripcion": "Esta es la prueba definitiva sobre nuestros antepasados. Hay preguntas muy detalladas, así que lee tus libros con mucho cuidado antes de responder.",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Básico",
+            "pregunta": "¿Qué es la historia?",
+            "pista": "Pista del Historiador: Es una ciencia, no un cuento inventado.",
+            "opciones": ["El estudio del futuro y los planetas", "La ciencia encargada de estudiar los principales acontecimientos sucedidos desde la aparición del hombre", "Una leyenda antigua sobre los incas", "El estudio de los animales primitivos"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Básico",
+            "pregunta": "¿Cómo se llaman las personas que se encargan de investigar e interpretar el pasado basándose en diversas fuentes?",
+            "pista": "Pista del Historiador: Son los 'detectives' del pasado.",
+            "opciones": ["Biólogos", "Arqueólogos", "Historiadores", "Geógrafos"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Intermedio",
+            "pregunta": "Si encontramos herramientas antiguas, restos humanos o una construcción antigua, ¿de qué tipo de fuente histórica estamos hablando?",
+            "pista": "Pista del Historiador: Son cosas físicas que se pueden tocar y medir.",
+            "opciones": ["Fuentes escritas", "Fuentes monumentales o materiales", "Fuentes orales o tradicionales", "Fuentes culturales o etnológicas"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué tipo de fuente histórica son los bailes, comidas o costumbres que cultiva la gente en la actualidad?",
+            "pista": "Pista del Historiador: Se relaciona con las tradiciones vivas de los pueblos de hoy en día.",
+            "opciones": ["Fuentes culturales o etnológicas", "Fuentes escritas", "Fuentes monumentales", "Fuentes orales"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 1: Historia del Perú",
+            "nivel": "Intermedio",
+            "pregunta": "Según la línea de tiempo de la historia de nuestro país, ¿cuáles son los tres grandes periodos?",
+            "pista": "Pista del Historiador: Piensa en el orden: antes de los españoles, durante los españoles, y cuando fuimos libres.",
+            "opciones": ["Incaico, Virreinal y Moderno", "Autóctono o prehispánico, Virreinal y Republicano", "Primitivo, Antiguo y Contemporáneo", "Nómada, Sedentario y Republicano"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Básico",
+            "pregunta": "Según la teoría inmigracionista asiática de Alex Hrdlicka, ¿por dónde cruzó el hombre para llegar a América?",
+            "pista": "Pista del Historiador: Es un lugar de hielo que conectaba dos continentes hace unos 50 000 años.",
+            "opciones": ["El Océano Pacífico", "El Estrecho de Bering", "La Antártida", "El Océano Atlántico"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Avanzado",
+            "pregunta": "¿Quién fue el defensor de la 'Teoría autoctonista', que decía que el hombre no vino de otro lado, sino que se originó en las pampas sudamericanas?",
+            "pista": "Pista del Historiador: Fue un investigador argentino.",
+            "opciones": ["Alex Hrdlicka", "Paul Rivet", "Florentino Ameghino", "Julio C. Tello"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Básico",
+            "pregunta": "¿Cómo se le llamaba a los primeros hombres que andaban en grupos buscando comida y viviendo en cuevas porque no tenían un lugar fijo?",
+            "pista": "Pista del Historiador: La palabra significa que van de un lugar a otro.",
+            "opciones": ["Sedentarios", "Nómadas", "Horticultores", "Campesinos"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Intermedio",
+            "pregunta": "Los hombres nómadas dejaron testimonios de cómo cazaban animales pintando escenas en las paredes de las cuevas. ¿Cómo se llaman estas pinturas?",
+            "pista": "Pista del Historiador: La palabra se relaciona con las rocas o paredes de piedra.",
+            "opciones": ["Pinturas en lienzo", "Fotografías antiguas", "Pinturas rupestres", "Murales de arcilla"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Avanzado",
+            "pregunta": "En el proceso de dejar de ser nómadas, hubo hombres que aprendieron a cultivar plantas como el frijol y cazar vizcachas, llamados 'horticultores'. ¿Quién es un ejemplo de esto?",
+            "pista": "Pista del Historiador: Se ubicó en Áncash.",
+            "opciones": ["El hombre de Toquepala", "El hombre de Kotosh", "El hombre de Guitarrero", "El hombre de Lauricocha"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Básico",
+            "pregunta": "¿Qué actividad aprendió a hacer el hombre para volverse 'sedentario' y construir sus casas en un lugar fijo?",
+            "pista": "Pista del Historiador: Tuvieron que aprender a producir su propia comida sembrando.",
+            "opciones": ["La minería", "La agricultura y la ganadería", "La navegación", "La metalurgia"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Primeros pobladores peruanos",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué hombre sedentario construyó el primer templo religioso del Perú, conocido como 'El Templo de las Manos Cruzadas' en Huánuco?",
+            "pista": "Pista del Historiador: Empieza con la letra K.",
+            "opciones": ["Hombre de Paiján", "Hombre de Kotosh", "Hombre de Toquepala", "Hombre de Guitarrero"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Básico",
+            "pregunta": "¿En qué departamento del Perú se desarrolló la cultura Chavín, descubierta por Julio C. Tello?",
+            "pista": "Pista del Historiador: Es un departamento que tiene zona de costa y sierra, famoso por el Callejón de Huaylas.",
+            "opciones": ["Ica", "La Libertad", "Áncash", "Lima"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Intermedio",
+            "pregunta": "La arquitectura más importante de la cultura Chavín fue su gran templo. ¿De qué material estaban hechas sus construcciones principalmente en la sierra?",
+            "pista": "Pista del Historiador: Era un material muy duro que también usaban para sus esculturas.",
+            "opciones": ["Madera", "Adobe y barro", "Piedra", "Ladrillos de arcilla"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Avanzado",
+            "pregunta": "¿Cómo se llama el monolito de la cultura Chavín que mide más de 4 metros y representa al dios Wiracocha?",
+            "pista": "Pista del Historiador: Tiene el nombre del sabio italiano que la estudió.",
+            "opciones": ["Lanzón monolítico", "Estela Raimondi", "Obelisco Tello", "Cabeza clava"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Avanzado",
+            "pregunta": "La cerámica Chavín era monócroma, es decir, usaban un solo color oscuro para imitar a un material. ¿Qué colores usaban?",
+            "pista": "Pista del Historiador: Buscaban que sus vasijas parecieran de piedra.",
+            "opciones": ["Rojo, blanco y amarillo", "Gris, marrón y negro", "Azul, verde y morado", "Solo blanco brillante"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Básico",
+            "pregunta": "¿En qué departamento se desarrolló la cultura Nasca, teniendo como capital a Cahuachi?",
+            "pista": "Pista del Historiador: Es un lugar de mucho desierto al sur de Lima.",
+            "opciones": ["La Libertad", "Arequipa", "Ica", "Áncash"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Intermedio",
+            "pregunta": "A pesar de vivir en un desierto, los pobladores de Nasca lograron cultivar gracias a una gran obra de ingeniería. ¿Qué construyeron?",
+            "pista": "Pista del Historiador: Eran túneles por debajo de la tierra para encontrar agua.",
+            "opciones": ["Represas gigantes", "Acueductos subterráneos", "Pozos de lluvia", "Canales de madera"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Avanzado",
+            "pregunta": "La cerámica Nasca destacó por ser pictórica y usar muchos colores (hasta 11), sin dejar espacios en blanco. ¿Qué figuras representaban?",
+            "pista": "Pista del Historiador: Dibujaban cosas de su entorno natural.",
+            "opciones": ["Cielos y estrellas", "Animales, vegetales y formas geométricas", "Solo guerreros en batalla", "Templos y pirámides"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Chavín y Nasca",
+            "nivel": "Básico",
+            "pregunta": "¿Quién fue la destacada investigadora que dedicó gran parte de su vida al cuidado, estudio y preservación de las Líneas de Nasca?",
+            "pista": "Pista del Historiador: Era una científica de origen alemán.",
+            "opciones": ["Maria Reiche", "Paul Kosok", "Toribio Mejía Xesspe", "Ruth Shady"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Básico",
+            "pregunta": "La historia de la cultura Paracas se divide en dos periodos, ¿cuáles son?",
+            "pista": "Pista del Historiador: Uno suena a cuevas oscuras y el otro significa 'ciudad de los muertos'.",
+            "opciones": ["Antiguo y Moderno", "Cavernas y Necrópolis", "Inicial y Final", "Costa y Sierra"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Avanzado",
+            "pregunta": "En el periodo Paracas Cavernas, ¿qué forma curiosa tenían las tumbas cavadas en la roca donde colocaban a sus momias a 6 metros de profundidad?",
+            "pista": "Pista del Historiador: Se parecía a un vaso elegante volteado hacia abajo.",
+            "opciones": ["Forma de pirámide invertida", "Forma de copa de champán invertida o botella de cuello alto", "Forma de cuadrado perfecto", "Forma de tubo horizontal"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Intermedio",
+            "pregunta": "¿Cómo se llamaban las operaciones quirúrgicas que realizaba el médico Paracas usando cuchillos de obsidiana y bisturí?",
+            "pista": "Pista del Historiador: Era una cirugía que se hacía en la cabeza.",
+            "opciones": ["Mapeo cerebral", "Curaciones de fardos", "Trepanaciones craneanas", "Cirugía maxilofacial"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Intermedio",
+            "pregunta": "Los cadáveres de la cultura Paracas eran colocados en posición fetal y envueltos en telas de altísima calidad. ¿Cómo se le llama a este paquete fúnebre?",
+            "pista": "Pista del Historiador: Empieza con la letra F.",
+            "opciones": ["Fardo funerario", "Ataúd textil", "Momia de algodón", "Sarcófago de tela"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Básico",
+            "pregunta": "Los Paracas fueron excelentes tejedores y utilizaron algodón y lana. ¿Qué representaban en sus famosos mantos?",
+            "pista": "Pista del Historiador: Dibujaban figuras que adoraban.",
+            "opciones": ["Solo figuras geométricas", "A sus divinidades y personajes mitológicos", "Planetas y estrellas", "Mapas de sus ciudades"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Básico",
+            "pregunta": "La cultura Mochica (o Moche) se desarrolló en los valles de Moche, Chicama y Virú. ¿En qué actual departamento del Perú se ubica?",
+            "pista": "Pista del Historiador: Está en la costa norte del Perú, su capital es Trujillo.",
+            "opciones": ["Áncash", "Lambayeque", "La Libertad", "Piura"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Intermedio",
+            "pregunta": "En su arquitectura, los Mochicas construyeron grandes santuarios de adobe. ¿Cuáles son las huacas más importantes que fueron capitales de esta cultura?",
+            "pista": "Pista del Historiador: Sus nombres corresponden al astro del día y al astro de la noche.",
+            "opciones": ["Huaca del Sol y Huaca de la Luna", "Huaca Rajada y Huaca Cao", "Huaca Pucllana y Huaca Mateo Salado", "Templo Viejo y Templo Nuevo"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué característica de construcción tenían las huacas Mochicas para no colapsar con el tiempo?",
+            "pista": "Pista del Historiador: En lugar de destruirlas para hacer una nueva, hacían algo especial con las paredes viejas.",
+            "opciones": ["Usaban cemento de piedra volcánica", "Construían columnas de madera gruesa", "Tapiaban la pared antigua y construían otra pared delante (remodelación sobrepuesta)", "Hacían techos muy ligeros de paja"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Avanzado",
+            "pregunta": "La cerámica Mochica destacó por sus huacos de picos verticales unidos por un gollete puente. ¿Qué colores usaban principalmente para pintarlos?",
+            "pista": "Pista del Historiador: A diferencia de Nasca que usaba muchos colores, Mochica era más sobrio (bícroma o de pocos tonos).",
+            "opciones": ["Blanco, crema o marrón rojizo", "Verde oscuro y negro", "Azul, amarillo y rojo", "Solo negro brillante"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Paracas y Mochica",
+            "nivel": "Intermedio",
+            "pregunta": "¿En qué cultura preínca se encontraron restos arqueológicos que mostraban deformaciones craneanas provocadas intencionalmente desde la niñez?",
+            "pista": "Pista del Historiador: Es la misma cultura que hacía trepanaciones craneanas en la región Ica.",
+            "opciones": ["Cultura Chavín", "Cultura Nasca", "Cultura Paracas", "Cultura Mochica"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cultura Mochica: Religión",
+            "nivel": "Básico",
+            "pregunta": "¿Cómo se llamaba el dios supremo de la cultura Mochica, el cual era representado como un hombre con grandes colmillos de felino?",
+            "pista": "Pista del Historiador: Su nombre tiene dos palabras y empieza con la letra 'A'.",
+            "opciones": ["Wiracocha", "Ai Apaec", "Inti", "Naylamp"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cultura Mochica: Cerámica",
+            "nivel": "Intermedio",
+            "pregunta": "La cerámica Mochica destacó a nivel mundial por mostrar rostros humanos que expresaban dolor, alegría o preocupación. ¿Cómo se llaman estos ceramios?",
+            "pista": "Pista del Historiador: Son vasijas que parecen fotografías de las caras de las personas.",
+            "opciones": ["Cabezas clavas", "Huacos retrato", "Vasos ceremoniales", "Fardos funerarios"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cultura Mochica: Cerámica",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué colores específicos utilizaban los Mochicas para pintar su cerámica escultórica?",
+            "pista": "Pista del Historiador: Solo usaban cuatro colores básicos.",
+            "opciones": ["Verde, azul, morado y amarillo", "Crema, negro, rojo y blanco", "Celeste, gris, marrón y rosado", "Solo blanco y negro"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cultura Mochica: El Señor de Sipán",
+            "nivel": "Básico",
+            "pregunta": "¿Quién fue el arqueólogo peruano que descubrió la fabulosa tumba del Señor de Sipán cerca de la ciudad de Chiclayo?",
+            "pista": "Pista del Historiador: Su nombre de pila es Walter.",
+            "opciones": ["Julio C. Tello", "Walter Alva", "Max Uhle", "Paul Kosok"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cultura Mochica: El Señor de Sipán",
+            "nivel": "Intermedio",
+            "pregunta": "¿Hace aproximadamente cuántos años vivió el poderoso gobernante conocido como el Señor de Sipán?",
+            "pista": "Pista del Historiador: Fue mucho antes de la llegada de los españoles, hace más de mil años.",
+            "opciones": ["Hace 500 años", "Hace 1700 años", "Hace 3000 años", "Hace 5000 años"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cultura Mochica: El Señor de Sipán",
+            "nivel": "Avanzado",
+            "pregunta": "En el impresionante hallazgo de la tumba del Señor de Sipán, ¿cuántas personas en total acompañaban al gobernante en su viaje al más allá?",
+            "pista": "Pista del Historiador: Eran tres mujeres, cuatro hombres y un niño. Suma las cantidades.",
+            "opciones": ["Cuatro personas", "Seis personas", "Ocho personas", "Diez personas"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cultura Mochica: El Señor de Sipán",
+            "nivel": "Avanzado",
+            "pregunta": "Según los estudios del tesoro y los restos encontrados, ¿cuántos kilómetros de territorio se cree que llegó a abarcar el poder del Señor de Sipán?",
+            "pista": "Pista del Historiador: Es un número mayor a 500.",
+            "opciones": ["100 kilómetros", "350 kilómetros", "550 kilómetros", "1000 kilómetros"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cultura Mochica: Metalurgia",
+            "nivel": "Intermedio",
+            "pregunta": "Los orfebres Mochica innovaron la tecnología metalúrgica y aprendieron a fundir el oro sobre otro metal. ¿Cuál era ese otro metal base?",
+            "pista": "Pista del Historiador: Es un metal de color rojizo muy usado para fabricar cables eléctricos hoy en día.",
+            "opciones": ["El hierro", "El cobre", "El bronce", "El plomo"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cultura Mochica: Metalurgia",
+            "nivel": "Avanzado",
+            "pregunta": "Además de fabricar armas, herramientas y hermosas joyas (como coronas y pectorales), ¿qué objetos sorprendentes lograron fabricar los Mochicas usando metal?",
+            "pista": "Pista del Historiador: Eran objetos que hacían ruido o música.",
+            "opciones": ["Ruedas para carretas", "Instrumentos musicales como sonajas, pitos y tambores", "Monedas para comprar en el mercado", "Relojes de sol"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cultura Mochica: Actividades",
+            "nivel": "Básico",
+            "pregunta": "¿Para qué actividad utilizaban los pobladores Mochica los famosos 'caballitos de totora'?",
+            "pista": "Pista del Historiador: Eran embarcaciones ligeras que usaban en el mar.",
+            "opciones": ["Para la agricultura", "Para la ganadería", "Para la pesca", "Para la minería"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Repaso: Culturas Preíncas",
+            "nivel": "Básico",
+            "pregunta": "Relaciona correctamente: ¿A qué cultura pertenecen las 'Trepanaciones craneanas' y los 'Fardos funerarios'?",
+            "pista": "Pista del Historiador: Fue la cultura descubierta en una península de la región Ica.",
+            "opciones": ["Cultura Mochica", "Cultura Paracas", "Cultura Chavín", "Cultura Nasca"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Repaso: Culturas Preíncas",
+            "nivel": "Intermedio",
+            "pregunta": "La 'Huaca del Sol' es una de las construcciones arquitectónicas más importantes. ¿A qué cultura pertenece?",
+            "pista": "Pista del Historiador: Se encuentra en el norte del Perú, en el departamento de La Libertad.",
+            "opciones": ["Cultura Chavín", "Cultura Paracas", "Cultura Nasca", "Cultura Mochica"],
+            "respuestaCorrecta": 3
+        }
+    ]
+}

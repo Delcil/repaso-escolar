@@ -1,0 +1,181 @@
+{
+    "titulo": "Misión Aritmética: Los Cálculos de Nano Banana",
+    "descripcion": "Aplica tus mejores estrategias para resolver estos problemas. Recuerda las propiedades de la multiplicación y el orden de las operaciones combinadas.",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: Resolución de problemas II",
+            "nivel": "Intermedio",
+            "pregunta": "Nano Banana recolectó 125 plátanos en la mañana y 180 en la tarde. Si necesita 400 plátanos para una gran fiesta en la selva, ¿cuántos le faltan recolectar?",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><rect x='10' y='10' width='70' height='60' rx='5' fill='#fff9c4' stroke='#fbc02d' stroke-width='2'/><text x='45' y='45' font-family='Arial' font-size='20' font-weight='bold' text-anchor='middle'>125</text><text x='95' y='45' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>+</text><rect x='110' y='10' width='70' height='60' rx='5' fill='#fff9c4' stroke='#fbc02d' stroke-width='2'/><text x='145' y='45' font-family='Arial' font-size='20' font-weight='bold' text-anchor='middle'>180</text><text x='205' y='45' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>= ?</text></svg>",
+            "pista": "Pista de Nano Banana: Primero suma lo que ya recolectó (125 + 180). Luego, réstale esa cantidad a su meta de 400.",
+            "opciones": ["105", "95", "85", "115"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Resolución de problemas II",
+            "nivel": "Intermedio",
+            "pregunta": "En la tienda, una mochila cuesta 45 soles y un polo cuesta 28 soles. Si Nano Banana paga en la caja con un billete de 100 soles, ¿cuánto recibe de vuelto?",
+            "pista": "Pista de Nano Banana: Suma el costo de la mochila y el polo para saber cuánto gastó en total, y luego réstalo de los 100 soles.",
+            "opciones": ["37 soles", "17 soles", "27 soles", "33 soles"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Resolución de problemas II",
+            "nivel": "Avanzado",
+            "pregunta": "Nano Banana tiene 3 cajas. En la primera hay 15 manzanas. En la segunda hay 5 manzanas más que en la primera. En la tercera hay tantas manzanas como en la primera y segunda juntas. ¿Cuántas manzanas hay en la tercera caja?",
+            "grafico_svg": "<svg viewBox='0 0 250 100' width='100%' style='max-width: 300px;'><rect x='10' y='20' width='60' height='60' fill='#ffcdd2' stroke='#c62828' stroke-width='2'/><text x='40' y='55' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle'>15</text><rect x='90' y='20' width='60' height='60' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='120' y='55' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle'>15+5</text><rect x='170' y='20' width='70' height='60' fill='#c8e6c9' stroke='#2e7d32' stroke-width='2'/><text x='205' y='55' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>?</text></svg>",
+            "pista": "Pista de Nano Banana: Calcula paso a paso. La primera tiene 15. La segunda tiene 15+5=20. La tercera es la suma de ambas.",
+            "opciones": ["20", "30", "35", "40"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Resolución de problemas II",
+            "nivel": "Avanzado",
+            "pregunta": "Un tren lleva 120 pasajeros. En la primera parada bajan 30 personas y suben 15. ¿Con cuántos pasajeros continúa el tren su viaje?",
+            "pista": "Pista de Nano Banana: A los 120 pasajeros quítale los 30 que bajaron (resta), y a ese resultado súmale los 15 que subieron.",
+            "opciones": ["90", "105", "135", "110"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Resolución de problemas II",
+            "nivel": "Avanzado",
+            "pregunta": "¿Cuál es la operación combinada correcta para resolver este problema: 'Tenía 50 monedas, perdí 15 en el bosque y luego un amigo me regaló 20'?",
+            "grafico_svg": "<svg viewBox='0 0 250 60' width='100%' style='max-width: 300px;'><text x='125' y='35' font-family='Arial' font-size='20' font-weight='bold' text-anchor='middle' fill='#424242'>Traduce a lenguaje matemático</text></svg>",
+            "pista": "Pista de Nano Banana: 'Perder' significa restar (-) y 'regalar' significa sumar (+).",
+            "opciones": ["50 + 15 + 20", "50 - 15 - 20", "50 + 15 - 20", "50 - 15 + 20"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 2: Multiplicación (Propiedades)",
+            "nivel": "Intermedio",
+            "pregunta": "Aplicando la propiedad conmutativa de la multiplicación (el orden de los factores no altera el producto), ¿qué número falta en el recuadro?",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><text x='125' y='50' font-family='Arial' font-size='28' font-weight='bold' text-anchor='middle'>12 × 5 = <tspan fill='#d32f2f'>[ ? ]</tspan> × 12</text></svg>",
+            "pista": "Pista de Nano Banana: Como es una multiplicación, voltear los números da el mismo resultado.",
+            "opciones": ["12", "5", "60", "1"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Multiplicación (Propiedades)",
+            "nivel": "Intermedio",
+            "pregunta": "Aplicando la propiedad asociativa, agrupar de diferente manera no cambia el resultado. ¿Qué número falta en la igualdad?",
+            "grafico_svg": "<svg viewBox='0 0 300 80' width='100%' style='max-width: 350px;'><text x='150' y='50' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>(4 × 3) × 2 = 4 × ( <tspan fill='#1565c0'>[ ? ]</tspan> × 2 )</text></svg>",
+            "pista": "Pista de Nano Banana: Observa los números del lado izquierdo del igual. Tienen que ser exactamente los mismos números en el lado derecho.",
+            "opciones": ["2", "4", "3", "12"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Multiplicación (Propiedades)",
+            "nivel": "Avanzado",
+            "pregunta": "La propiedad distributiva reparte la multiplicación. Resuelve la siguiente operación aplicando esta propiedad: 6 × (3 + 4)",
+            "grafico_svg": "<svg viewBox='0 0 300 80' width='100%' style='max-width: 350px;'><text x='150' y='50' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>6 × (3 + 4) = (6 × 3) + (6 × 4)</text></svg>",
+            "pista": "Pista de Nano Banana: Puedes sumar primero (3+4=7) y multiplicar 6×7. O puedes usar la propiedad distributiva: (18) + (24). El resultado es el mismo.",
+            "opciones": ["36", "48", "42", "24"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Multiplicación (Propiedades)",
+            "nivel": "Avanzado",
+            "pregunta": "En la multiplicación, ¿cuál es el resultado de aplicar la propiedad del Elemento Absorbente en la operación 1545 × 0?",
+            "pista": "Pista de Nano Banana: El cero 'absorbe' o desaparece a cualquier número en una multiplicación.",
+            "opciones": ["1545", "1", "0", "15450"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Multiplicación (Propiedades)",
+            "nivel": "Avanzado",
+            "pregunta": "Nano Banana aplica la propiedad distributiva en una resta: 5 × (10 - 2). ¿Cuál es el resultado correcto?",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><text x='125' y='50' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>(5 × 10) - (5 × 2) = ?</text></svg>",
+            "pista": "Pista de Nano Banana: Resuelve cada paréntesis por separado y luego resta los resultados: 50 menos 10.",
+            "opciones": ["50", "40", "10", "60"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Multiplicación con dos factores",
+            "nivel": "Intermedio",
+            "pregunta": "Halla el producto de la siguiente multiplicación de dos cifras: 34 × 15",
+            "grafico_svg": "<svg viewBox='0 0 150 150' width='100%' style='max-width: 150px;'><rect width='150' height='150' rx='10' fill='#e0f7fa' stroke='#00bcd4' stroke-width='4'/><text x='100' y='50' font-family='monospace' font-size='32' text-anchor='end'>3 4</text><text x='40' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>×</text><text x='100' y='90' font-family='monospace' font-size='32' text-anchor='end'>1 5</text><line x1='30' y1='105' x2='110' y2='105' stroke='#333' stroke-width='3'/></svg>",
+            "pista": "Pista de Nano Banana: Primero multiplica 34 por 5. Luego multiplica 34 por 1 (dejando el espacio o agregando un cero). Finalmente, suma ambos.",
+            "opciones": ["510", "410", "500", "450"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 3: Multiplicación con dos factores",
+            "nivel": "Intermedio",
+            "pregunta": "Resuelve la siguiente operación usando tu técnica operativa: 42 × 23",
+            "grafico_svg": "<svg viewBox='0 0 150 150' width='100%' style='max-width: 150px;'><rect width='150' height='150' rx='10' fill='#fff3e0' stroke='#ff9800' stroke-width='4'/><text x='100' y='50' font-family='monospace' font-size='32' text-anchor='end'>4 2</text><text x='40' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>×</text><text x='100' y='90' font-family='monospace' font-size='32' text-anchor='end'>2 3</text><line x1='30' y1='105' x2='110' y2='105' stroke='#333' stroke-width='3'/></svg>",
+            "pista": "Pista de Nano Banana: Recuerda, 3×42 es 126, y 20×42 es 840. Suma esos dos resultados.",
+            "opciones": ["866", "966", "946", "846"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Multiplicación con dos factores",
+            "nivel": "Avanzado",
+            "pregunta": "¡Reto Criptograma! Encuentra el dígito escondido debajo de la letra 'A' para que la multiplicación sea correcta.",
+            "grafico_svg": "<svg viewBox='0 0 150 150' width='100%' style='max-width: 150px;'><rect width='150' height='150' rx='10' fill='#f3e5f5' stroke='#9c27b0' stroke-width='4'/><text x='100' y='50' font-family='monospace' font-size='32' text-anchor='end'>2 A</text><text x='40' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>×</text><text x='100' y='90' font-family='monospace' font-size='32' text-anchor='end'>  4</text><line x1='30' y1='105' x2='110' y2='105' stroke='#333' stroke-width='3'/><text x='100' y='135' font-family='monospace' font-size='32' text-anchor='end'>104</text></svg>",
+            "pista": "Pista de Nano Banana: Tienes que buscar un número 'A' que al multiplicarlo por 4 termine en 4. ¡Prueba con el 6! (4×6=24, pones 4 y llevas 2).",
+            "opciones": ["4", "5", "6", "8"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Multiplicación con dos factores",
+            "nivel": "Avanzado",
+            "pregunta": "Un camión de frutas entrega 16 cajas a la tienda. Si cada caja contiene 24 botellas de jugo de plátano, ¿cuántas botellas entregó en total?",
+            "pista": "Pista de Nano Banana: Tienes que multiplicar la cantidad de cajas por la cantidad de botellas que hay en cada una (16 × 24).",
+            "opciones": ["344", "404", "384", "364"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Multiplicación con dos factores",
+            "nivel": "Avanzado",
+            "pregunta": "Nano Banana vende 35 camisetas deportivas a 25 soles cada una. ¿Cuánto dinero recibe en total por la venta?",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><text x='125' y='50' font-family='Arial' font-size='28' font-weight='bold' text-anchor='middle'>35 × 25 = ?</text></svg>",
+            "pista": "Pista de Nano Banana: Usa tu lápiz y papel. Multiplica 35 por 5, luego 35 por 2 (dejando un espacio) y suma todo.",
+            "opciones": ["875 soles", "850 soles", "975 soles", "775 soles"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Operaciones combinadas",
+            "nivel": "Intermedio",
+            "pregunta": "Resuelve prestando mucha atención al orden de las operaciones: 15 + 5 × 4",
+            "grafico_svg": "<svg viewBox='0 0 200 80' width='100%' style='max-width: 250px;'><rect x='10' y='10' width='180' height='60' rx='10' fill='#fbe9e7' stroke='#d84315' stroke-width='4'/><text x='100' y='48' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>15 + 5 × 4</text></svg>",
+            "pista": "Pista de Nano Banana: ¡Cuidado! En las operaciones combinadas SIN paréntesis, la multiplicación manda y se resuelve primero que la suma.",
+            "opciones": ["80", "35", "50", "45"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Operaciones combinadas",
+            "nivel": "Intermedio",
+            "pregunta": "Ahora mira esta operación, los mismos números pero con paréntesis: (15 + 5) × 4. ¿Cuál es el resultado?",
+            "grafico_svg": "<svg viewBox='0 0 200 80' width='100%' style='max-width: 250px;'><rect x='10' y='10' width='180' height='60' rx='10' fill='#e8eaf6' stroke='#283593' stroke-width='4'/><text x='100' y='48' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>(15 + 5) × 4</text></svg>",
+            "pista": "Pista de Nano Banana: Los paréntesis son los reyes absolutos. Siempre debes resolver lo que está dentro de ellos antes de hacer cualquier otra cosa.",
+            "opciones": ["35", "50", "80", "100"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Operaciones combinadas",
+            "nivel": "Avanzado",
+            "pregunta": "Resuelve la siguiente operación combinada respetando la jerarquía: 40 - 3 × 8 + 12",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><text x='125' y='50' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>40 - 3 × 8 + 12</text></svg>",
+            "pista": "Pista de Nano Banana: Primero haz la multiplicación (3×8). Luego, como solo te quedan sumas y restas, resuélvelas en orden de izquierda a derecha (primero 40 menos 24, y al final le sumas 12).",
+            "opciones": ["28", "16", "36", "44"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: Operaciones combinadas",
+            "nivel": "Avanzado",
+            "pregunta": "Doble desafío combinando multiplicaciones y paréntesis: 2 × (10 + 5) - 4 × 3",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><text x='125' y='50' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>2 × (10 + 5) - 4 × 3</text></svg>",
+            "pista": "Pista de Nano Banana: 1) Resuelve el paréntesis (10+5=15). 2) Haz las dos multiplicaciones por separado (2×15 y 4×3). 3) Resta los resultados.",
+            "opciones": ["22", "18", "14", "30"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Operaciones combinadas",
+            "nivel": "Avanzado",
+            "pregunta": "Nano Banana compra 4 cuadernos a 5 soles cada uno y 3 lapiceros a 2 soles cada uno. Si paga en la caja con un billete de 50 soles, ¿cuánto le darán de vuelto?",
+            "pista": "Pista de Nano Banana: Su cuenta es (4×5) más (3×2), que es 20 + 6 = 26 soles de gasto. Para saber el vuelto, resta eso de los 50 soles.",
+            "opciones": ["34 soles", "14 soles", "24 soles", "26 soles"],
+            "respuestaCorrecta": 2
+        }
+    ]
+}

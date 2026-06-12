@@ -1,0 +1,186 @@
+{
+    "titulo": "Misión Geometría: Las Formas de Nano Banana",
+    "descripcion": "Nano Banana está construyendo cosas increíbles, pero necesita calcular los ángulos exactos. ¡Usa tu vista de águila y tus conocimientos matemáticos!",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: Ángulos (Clasificación)",
+            "nivel": "Intermedio",
+            "pregunta": "Nano Banana dibujó este ángulo en su pizarra. Por su abertura, ¿qué tipo de ángulo es?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 30 90 L 100 90 L 160 30' fill='none' stroke='#1565c0' stroke-width='4'/><path d='M 60 90 A 40 40 0 0 0 125 65' fill='none' stroke='#ff9800' stroke-width='3'/><circle cx='100' cy='90' r='5' fill='#d32f2f'/></svg>",
+            "pista": "Pista de Nano Banana: Mide más de 90 grados (es más abierto que la esquina de un cuadrado), pero menos de 180 grados.",
+            "opciones": ["Ángulo Agudo", "Ángulo Recto", "Ángulo Obtuso", "Ángulo Llano"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Ángulos (Clasificación)",
+            "nivel": "Intermedio",
+            "pregunta": "Observa el siguiente ángulo. ¿Cómo se clasifica?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 40 90 L 100 90 L 120 20' fill='none' stroke='#2e7d32' stroke-width='4'/><path d='M 70 90 A 30 30 0 0 0 108 60' fill='none' stroke='#ff9800' stroke-width='3'/><circle cx='100' cy='90' r='5' fill='#d32f2f'/></svg>",
+            "pista": "Pista de Nano Banana: Es un ángulo cerrado, su abertura es menor que la esquina de un cuadrado (menos de 90 grados).",
+            "opciones": ["Ángulo Agudo", "Ángulo Obtuso", "Ángulo Recto", "Ángulo Completo"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 1: Ángulos (Elementos)",
+            "nivel": "Avanzado",
+            "pregunta": "En geometría, un ángulo tiene partes importantes. ¿Cómo se llama el punto rojo donde se unen los dos rayos (lados)?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 50 90 L 100 90 L 130 40' fill='none' stroke='#424242' stroke-width='4'/><circle cx='100' cy='90' r='7' fill='#d32f2f'/><text x='100' y='110' font-family='Arial' font-size='16' font-weight='bold' text-anchor='middle' fill='#d32f2f'>?</text></svg>",
+            "pista": "Pista de Nano Banana: Empieza con la letra 'V'. Es la esquina exacta donde nacen las dos líneas.",
+            "opciones": ["Lado", "Transportador", "Vértice", "Bisectriz"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Ángulos (Clasificación)",
+            "nivel": "Avanzado",
+            "pregunta": "Si Nano Banana junta un ángulo agudo de 50° con otro ángulo agudo de 60°, ¿qué tipo de ángulo forman juntos al sumarlos?",
+            "grafico_svg": "<svg viewBox='0 0 200 100' width='100%' style='max-width: 250px;'><text x='100' y='50' font-family='Arial' font-size='24' font-weight='bold' text-anchor='middle'>50° + 60° = ?</text></svg>",
+            "pista": "Pista de Nano Banana: Primero suma 50 + 60. El resultado es 110°. ¿Cómo se llama a un ángulo que mide 110°?",
+            "opciones": ["Ángulo Recto", "Ángulo Llano", "Ángulo Agudo", "Ángulo Obtuso"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 1: Ángulos (Clasificación)",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué tipo de ángulo forma una línea completamente recta, como el horizonte, y cuánto mide?",
+            "grafico_svg": "<svg viewBox='0 0 200 80' width='100%' style='max-width: 250px;'><path d='M 20 50 L 180 50' fill='none' stroke='#1565c0' stroke-width='4'/><path d='M 60 50 A 40 40 0 0 1 140 50' fill='none' stroke='#ff9800' stroke-width='3'/><circle cx='100' cy='50' r='5' fill='#d32f2f'/></svg>",
+            "pista": "Pista de Nano Banana: Es como si abrieras tus brazos por completo de lado a lado.",
+            "opciones": ["Ángulo Recto (90°)", "Ángulo Obtuso (120°)", "Ángulo Llano (180°)", "Ángulo Completo (360°)"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Uso del transportador",
+            "nivel": "Intermedio",
+            "pregunta": "Nano Banana puso su transportador sobre este ángulo. Mira dónde marca la línea azul. ¿Cuánto mide el ángulo?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 20 100 A 80 80 0 0 1 180 100 Z' fill='#e3f2fd' stroke='#90caf9' stroke-width='2'/><path d='M 100 100 L 180 100' fill='none' stroke='#1565c0' stroke-width='4'/><path d='M 100 100 L 140 30' fill='none' stroke='#1565c0' stroke-width='4'/><text x='145' y='25' font-family='Arial' font-size='14' font-weight='bold' fill='#d32f2f'>60°</text><circle cx='100' cy='100' r='4' fill='#000'/></svg>",
+            "pista": "Pista de Nano Banana: La línea de abajo está en el 0°. Solo lee el número donde señala la otra línea de arriba.",
+            "opciones": ["30°", "60°", "90°", "120°"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Uso del transportador",
+            "nivel": "Intermedio",
+            "pregunta": "Observa el transportador. El ángulo se abre hacia la izquierda. ¿Cuál es su medida?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 20 100 A 80 80 0 0 1 180 100 Z' fill='#e3f2fd' stroke='#90caf9' stroke-width='2'/><path d='M 100 100 L 20 100' fill='none' stroke='#2e7d32' stroke-width='4'/><path d='M 100 100 L 160 40' fill='none' stroke='#2e7d32' stroke-width='4'/><text x='165' y='35' font-family='Arial' font-size='14' font-weight='bold' fill='#d32f2f'>135°</text><circle cx='100' cy='100' r='4' fill='#000'/></svg>",
+            "pista": "Pista de Nano Banana: Como el ángulo se abre desde la izquierda (0° está a la izquierda), es un ángulo obtuso. Lee el número indicado.",
+            "opciones": ["45°", "90°", "135°", "180°"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Uso del transportador",
+            "nivel": "Avanzado",
+            "pregunta": "¡Cuidado aquí! Ninguna de las líneas del ángulo está en el 0. Una línea apunta al 30° y la otra al 80°. ¿Cuánto mide el ángulo en total?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 20 100 A 80 80 0 0 1 180 100 Z' fill='#fff3e0' stroke='#ffcc80' stroke-width='2'/><path d='M 100 100 L 170 65' fill='none' stroke='#e65100' stroke-width='3'/><path d='M 100 100 L 115 22' fill='none' stroke='#e65100' stroke-width='3'/><text x='175' y='60' font-family='Arial' font-size='12' fill='#d32f2f'>30°</text><text x='115' y='15' font-family='Arial' font-size='12' fill='#d32f2f'>80°</text><circle cx='100' cy='100' r='4' fill='#000'/></svg>",
+            "pista": "Pista de Nano Banana: Cuando ninguna línea está en el cero, debes restar los dos números para saber la distancia entre ellos (80 - 30).",
+            "opciones": ["110°", "80°", "50°", "30°"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: Construcción de ángulos",
+            "nivel": "Avanzado",
+            "pregunta": "Nano Banana necesita dibujar un ángulo recto (90°) perfecto. Tiene la línea base horizontal. ¿Hacia dónde debe apuntar exactamente la segunda línea?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 100 100 L 180 100' fill='none' stroke='#424242' stroke-width='4'/><circle cx='100' cy='100' r='5' fill='#d32f2f'/><path d='M 100 100 L 100 20' fill='none' stroke='#c62828' stroke-width='4' stroke-dasharray='5,5'/><path d='M 100 100 L 150 40' fill='none' stroke='#1565c0' stroke-width='4' stroke-dasharray='5,5'/><path d='M 100 100 L 50 40' fill='none' stroke='#2e7d32' stroke-width='4' stroke-dasharray='5,5'/></svg>",
+            "pista": "Pista de Nano Banana: Un ángulo de 90° forma una letra 'L' perfecta.",
+            "opciones": ["Hacia la línea azul", "Hacia la línea roja (totalmente recta hacia arriba)", "Hacia la línea verde", "Completamente hacia la izquierda"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Construcción de ángulos",
+            "nivel": "Intermedio",
+            "pregunta": "Solo con mirar este ángulo y sin usar transportador, ¿cuál crees que es su medida aproximada?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 40 100 L 100 100 L 110 20' fill='none' stroke='#6a1b9a' stroke-width='4'/><path d='M 70 100 A 30 30 0 0 0 103 70' fill='none' stroke='#ff9800' stroke-width='3'/><circle cx='100' cy='100' r='5' fill='#d32f2f'/></svg>",
+            "pista": "Pista de Nano Banana: Casi casi es un ángulo recto (letra L), pero está un poquitito cerrado. Elige el número que esté más cerca de 90, pero que sea menor.",
+            "opciones": ["10°", "80°", "120°", "180°"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Bisectriz de un ángulo",
+            "nivel": "Intermedio",
+            "pregunta": "La línea roja punteada es la BISECTRIZ de este ángulo de 60°. ¿Cuánto mide cada uno de los dos nuevos ángulos más pequeños?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 40 100 L 100 100 L 130 50' fill='none' stroke='#1565c0' stroke-width='4'/><path d='M 100 100 L 160 80' fill='none' stroke='#d32f2f' stroke-width='3' stroke-dasharray='6,4'/><text x='110' y='30' font-family='Arial' font-size='14' font-weight='bold' fill='#1565c0'>Total = 60°</text></svg>",
+            "pista": "Pista de Nano Banana: Recuerda que la 'Bisectriz' es como un cuchillo que corta el ángulo exactamente por la mitad en dos partes iguales.",
+            "opciones": ["40°", "20°", "30°", "50°"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Bisectriz de un ángulo",
+            "nivel": "Intermedio",
+            "pregunta": "Al trazar una bisectriz, uno de los ángulos pequeños midió 45°. ¿Cuánto medía el ángulo grandote original antes de ser cortado?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 100 100 L 180 100' fill='none' stroke='#424242' stroke-width='4'/><path d='M 100 100 L 100 20' fill='none' stroke='#424242' stroke-width='4'/><path d='M 100 100 L 160 40' fill='none' stroke='#d32f2f' stroke-width='3' stroke-dasharray='6,4'/><text x='140' y='85' font-family='Arial' font-size='14' fill='#d32f2f'>45°</text></svg>",
+            "pista": "Pista de Nano Banana: Si la mitad es 45°, tienes que sumar 45° + 45° para saber cuánto era el total.",
+            "opciones": ["90°", "60°", "100°", "180°"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 3: Bisectriz de un ángulo",
+            "nivel": "Avanzado",
+            "pregunta": "Nano Banana trazó una bisectriz (línea roja). Un lado mide '2x' y el otro mide '50°'. ¿Cuál es el valor secreto de la letra 'x'?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 20 100 L 100 100 L 60 20' fill='none' stroke='#2e7d32' stroke-width='4'/><path d='M 100 100 L 110 25' fill='none' stroke='#d32f2f' stroke-width='3' stroke-dasharray='6,4'/><text x='115' y='80' font-family='Arial' font-size='14'>50°</text><text x='85' y='60' font-family='Arial' font-size='14'>2x</text></svg>",
+            "pista": "Pista de Nano Banana: Como es una bisectriz, los dos lados son IGUALES. Entonces 2x = 50. ¿Qué número multiplicado por 2 te da 50?",
+            "opciones": ["50", "100", "25", "30"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Bisectriz de un ángulo",
+            "nivel": "Avanzado",
+            "pregunta": "Si le trazamos una bisectriz a un ángulo Llano (el que es una línea completamente recta), ¿qué tipo de ángulos se forman?",
+            "grafico_svg": "<svg viewBox='0 0 200 100' width='100%' style='max-width: 250px;'><path d='M 20 80 L 180 80' fill='none' stroke='#1565c0' stroke-width='4'/><path d='M 100 80 L 100 20' fill='none' stroke='#d32f2f' stroke-width='3' stroke-dasharray='6,4'/><rect x='100' y='70' width='10' height='10' fill='none' stroke='#333' stroke-width='2'/><rect x='90' y='70' width='10' height='10' fill='none' stroke='#333' stroke-width='2'/></svg>",
+            "pista": "Pista de Nano Banana: Un ángulo llano mide 180°. La mitad de 180° es 90°. ¿Cómo se llaman los ángulos de 90°?",
+            "opciones": ["Dos ángulos agudos", "Dos ángulos obtusos", "Dos ángulos rectos", "Un ángulo completo"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Bisectriz de un ángulo",
+            "nivel": "Avanzado",
+            "pregunta": "La línea roja es bisectriz. Encuentra el valor de 'x'.",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 40 100 L 100 100 L 160 40' fill='none' stroke='#6a1b9a' stroke-width='4'/><path d='M 100 100 L 150 80' fill='none' stroke='#d32f2f' stroke-width='3' stroke-dasharray='6,4'/><text x='110' y='90' font-family='Arial' font-size='14'>x + 10°</text><text x='130' y='60' font-family='Arial' font-size='14'>40°</text></svg>",
+            "pista": "Pista de Nano Banana: Como son iguales, la ecuación es: x + 10 = 40. ¿Qué número sumado con 10 te da 40?",
+            "opciones": ["20", "30", "40", "50"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Complemento de un ángulo",
+            "nivel": "Intermedio",
+            "pregunta": "¿Cuál es el complemento del ángulo de 40°?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 100 100 L 180 100' fill='none' stroke='#424242' stroke-width='4'/><path d='M 100 100 L 100 20' fill='none' stroke='#424242' stroke-width='4'/><rect x='100' y='90' width='10' height='10' fill='none' stroke='#333' stroke-width='2'/><path d='M 100 100 L 150 40' fill='none' stroke='#1565c0' stroke-width='3'/><text x='135' y='85' font-family='Arial' font-size='14'>40°</text><text x='115' y='45' font-family='Arial' font-size='16' font-weight='bold' fill='#d32f2f'>?</text></svg>",
+            "pista": "Pista de Nano Banana: El complemento es lo que le falta a un ángulo para llegar a 90° (un ángulo recto). Resta 90 - 40.",
+            "opciones": ["40°", "50°", "60°", "90°"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Complemento de un ángulo",
+            "nivel": "Intermedio",
+            "pregunta": "Si tienes un ángulo muy cerrado que mide 15°, ¿cuál será su complemento?",
+            "grafico_svg": "<svg viewBox='0 0 200 80' width='100%' style='max-width: 250px;'><text x='100' y='40' font-family='Arial' font-size='20' font-weight='bold' text-anchor='middle'>Complemento de 15°</text></svg>",
+            "pista": "Pista de Nano Banana: Solo tienes que hacer la resta mágica: 90 menos 15.",
+            "opciones": ["65°", "75°", "85°", "105°"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Complemento de un ángulo",
+            "nivel": "Avanzado",
+            "pregunta": "Encuentra el valor de 'x' sabiendo que los dos ángulos son complementarios.",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 100 100 L 180 100' fill='none' stroke='#424242' stroke-width='4'/><path d='M 100 100 L 100 20' fill='none' stroke='#424242' stroke-width='4'/><rect x='100' y='90' width='10' height='10' fill='none' stroke='#333' stroke-width='2'/><path d='M 100 100 L 130 30' fill='none' stroke='#2e7d32' stroke-width='3'/><text x='140' y='75' font-family='Arial' font-size='14'>x</text><text x='105' y='50' font-family='Arial' font-size='14'>20°</text></svg>",
+            "pista": "Pista de Nano Banana: El cuadradito en la esquina significa que todo mide 90°. Así que x + 20 = 90. ¿Cuánto vale x?",
+            "opciones": ["60°", "70°", "80°", "110°"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Complemento de un ángulo",
+            "nivel": "Avanzado",
+            "pregunta": "Nano Banana tiene dos ángulos que son iguales. Además, ambos ángulos son complementarios entre sí (suman 90°). ¿Cuánto mide cada ángulo?",
+            "grafico_svg": "<svg viewBox='0 0 200 120' width='100%' style='max-width: 250px;'><path d='M 100 100 L 180 100' fill='none' stroke='#424242' stroke-width='4'/><path d='M 100 100 L 100 20' fill='none' stroke='#424242' stroke-width='4'/><path d='M 100 100 L 160 40' fill='none' stroke='#e65100' stroke-width='3'/><text x='140' y='80' font-family='Arial' font-size='16'>x</text><text x='115' y='45' font-family='Arial' font-size='16'>x</text></svg>",
+            "pista": "Pista de Nano Banana: Tienes que buscar un número que, sumado con él mismo, te dé exactamente 90.",
+            "opciones": ["30°", "40°", "45°", "50°"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Complemento de un ángulo",
+            "nivel": "Avanzado",
+            "pregunta": "Pregunta trampa de Nano Banana: ¿Cuál es el complemento del complemento de 50°?",
+            "grafico_svg": "<svg viewBox='0 0 200 80' width='100%' style='max-width: 250px;'><text x='100' y='40' font-family='Arial' font-size='20' font-weight='bold' text-anchor='middle'>C ( C ( 50° ) ) = ?</text></svg>",
+            "pista": "Pista de Nano Banana: Hazlo paso a paso. Primero saca el complemento de 50° (que es 40°). Ahora, saca el complemento de ese 40°. ¡Volverás al inicio!",
+            "opciones": ["40°", "90°", "140°", "50°"],
+            "respuestaCorrecta": 3
+        }
+    ]
+}

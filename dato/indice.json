@@ -29,5 +29,43 @@
         "mes": "Mayo",
         "ruta": "grado/3/comprension/mes/mayo",
         "tipo": "lectura"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Personal Social Libro",
+        "mes": "Mayo",
+        "ruta": "grado/3/personal_social/mes/mayo2"
+    }
+    ,
+    {
+        "grado": "3er Grado",
+        "curso": "Ciencia y Ambiente Libro",
+        "mes": "Mayo",
+        "ruta": "grado/3/ciencia/mes/mayo2"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Razonamiento Matemático",
+        "mes": "Mayo",
+        "ruta": "grado/3/razonamiento_matematico/mes/mayo"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Álgebra",
+        "mes": "Mayo",
+        "ruta": "grado/3/algebra/mes/mayo"
+    }
+    ,
+    {
+        "grado": "3er Grado",
+        "curso": "Geometría",
+        "mes": "Mayo",
+        "ruta": "grado/3/geometria/mes/mayo"
+    },
+    {
+        "grado": "3er Grado",
+        "curso": "Aritmética",
+        "mes": "Mayo",
+        "ruta": "grado/3/aritmetica/mes/mayo"
     }
 ]

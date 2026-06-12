@@ -99,16 +99,19 @@ function renderizarPreguntas() {
         tarjeta.className = 'tarjeta-pregunta';
         tarjeta.id = `pregunta-card-${qIndex}`;
 
+        const graficoHTML = item.grafico_svg ? `<div style="text-align:center; margin: 15px 0; padding: 10px; background: #fffde7; border-radius: 8px; border: 2px dashed var(--primary-color);">${item.grafico_svg}</div>` : '';
+
         tarjeta.innerHTML = `
-            <div class="badges">
-                <span class="tema-badge">${item.tema}</span>
-                <span class="nivel-badge">${item.nivel}</span>
-            </div>
-            <div class="pregunta-texto">${qIndex + 1}. ${item.pregunta}</div>
-            <button class="btn-pista" onclick="togglePista(${qIndex})">👁️ Ver Pista</button>
-            <div class="pista-texto" id="pista-${qIndex}">${item.pista}</div>
-            <div class="opciones" id="opciones-${qIndex}"></div>
-        `;
+    <div class="badges">
+        <span class="tema-badge">${item.tema}</span>
+        <span class="nivel-badge">${item.nivel}</span>
+    </div>
+    <div class="pregunta-texto">${qIndex + 1}. ${item.pregunta}</div>
+    
+    ${graficoHTML} <button class="btn-pista" onclick="togglePista(${qIndex})">👁️ Ver Pista</button>
+    <div class="pista-texto" id="pista-${qIndex}">${item.pista}</div>
+    <div class="opciones" id="opciones-${qIndex}"></div>
+`;
         contenedor.appendChild(tarjeta);
 
         const contenedorOpciones = document.getElementById(`opciones-${qIndex}`);

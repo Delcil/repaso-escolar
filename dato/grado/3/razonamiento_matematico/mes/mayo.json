@@ -1,0 +1,186 @@
+{
+    "titulo": "Misión Matemática: Los Enigmas de Nano Banana",
+    "descripcion": "Nano Banana necesita tu ayuda para resolver estos misterios de lógica. ¡No hay preguntas fáciles, así que usa todo tu razonamiento!",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: Minisudoku",
+            "nivel": "Intermedio",
+            "pregunta": "Observa la cuadrícula de 4x4. ¿Qué número debe ir en la casilla marcada con el signo de interrogación color naranja?",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='4'/><line x1='80' y1='0' x2='80' y2='160' stroke='#333' stroke-width='4'/><line x1='0' y1='80' x2='160' y2='80' stroke='#333' stroke-width='4'/><line x1='40' y1='0' x2='40' y2='160' stroke='#ccc' stroke-width='2'/><line x1='120' y1='0' x2='120' y2='160' stroke='#ccc' stroke-width='2'/><line x1='0' y1='40' x2='160' y2='40' stroke='#ccc' stroke-width='2'/><line x1='0' y1='120' x2='160' y2='120' stroke='#ccc' stroke-width='2'/><text x='20' y='28' font-family='Arial' font-size='20' text-anchor='middle'>1</text><text x='60' y='28' font-family='Arial' font-size='20' text-anchor='middle'>2</text><text x='100' y='28' font-family='Arial' font-size='20' text-anchor='middle'>3</text><text x='140' y='28' font-family='Arial' font-size='20' text-anchor='middle'>4</text><text x='20' y='68' font-family='Arial' font-size='20' text-anchor='middle'>3</text><text x='60' y='68' font-family='Arial' font-size='20' text-anchor='middle'>4</text><text x='100' y='68' font-family='Arial' font-size='20' text-anchor='middle' fill='#e65100' font-weight='bold'>?</text><text x='140' y='68' font-family='Arial' font-size='20' text-anchor='middle'>2</text><text x='20' y='108' font-family='Arial' font-size='20' text-anchor='middle'>2</text><text x='60' y='108' font-family='Arial' font-size='20' text-anchor='middle'>1</text><text x='100' y='108' font-family='Arial' font-size='20' text-anchor='middle'>4</text><text x='140' y='108' font-family='Arial' font-size='20' text-anchor='middle'>3</text></svg>",
+            "pista": "Pista de Nano Banana: Fíjate en la segunda fila horizontal. Ya tienes los números 3, 4 y 2. ¿Qué número falta del 1 al 4?",
+            "opciones": ["1", "2", "3", "4"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 1: Minisudoku",
+            "nivel": "Intermedio",
+            "pregunta": "Nano Banana borró un número. ¿Qué número va en la casilla con el signo de interrogación para que el cuadrado oscuro superior izquierdo esté completo?",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='4'/><rect x='0' y='0' width='80' height='80' fill='#e3f2fd'/><line x1='80' y1='0' x2='80' y2='160' stroke='#333' stroke-width='4'/><line x1='0' y1='80' x2='160' y2='80' stroke='#333' stroke-width='4'/><line x1='40' y1='0' x2='40' y2='160' stroke='#ccc' stroke-width='2'/><line x1='120' y1='0' x2='120' y2='160' stroke='#ccc' stroke-width='2'/><line x1='0' y1='40' x2='160' y2='40' stroke='#ccc' stroke-width='2'/><line x1='0' y1='120' x2='160' y2='120' stroke='#ccc' stroke-width='2'/><text x='20' y='28' font-family='Arial' font-size='20' text-anchor='middle'>2</text><text x='60' y='28' font-family='Arial' font-size='20' text-anchor='middle'>4</text><text x='20' y='68' font-family='Arial' font-size='20' text-anchor='middle' fill='#d84315' font-weight='bold'>?</text><text x='60' y='68' font-family='Arial' font-size='20' text-anchor='middle'>1</text><text x='100' y='28' font-family='Arial' font-size='20' text-anchor='middle'>1</text><text x='20' y='108' font-family='Arial' font-size='20' text-anchor='middle'>4</text></svg>",
+            "pista": "Pista de Nano Banana: En cada bloque de 4 casillas (2x2) deben estar los números del 1 al 4 sin repetirse. En el bloque pintado de celeste ya están el 1, el 2 y el 4.",
+            "opciones": ["1", "2", "3", "4"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Minisudoku",
+            "nivel": "Avanzado",
+            "pregunta": "Este Minisudoku usa letras en lugar de números (A, B, C, D). ¿Qué letra va en el recuadro con el signo '?'",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='4'/><line x1='80' y1='0' x2='80' y2='160' stroke='#333' stroke-width='4'/><line x1='0' y1='80' x2='160' y2='80' stroke='#333' stroke-width='4'/><line x1='40' y1='0' x2='40' y2='160' stroke='#ccc' stroke-width='2'/><line x1='120' y1='0' x2='120' y2='160' stroke='#ccc' stroke-width='2'/><line x1='0' y1='40' x2='160' y2='40' stroke='#ccc' stroke-width='2'/><line x1='0' y1='120' x2='160' y2='120' stroke='#ccc' stroke-width='2'/><text x='20' y='28' font-family='Arial' font-size='20' text-anchor='middle'>A</text><text x='60' y='28' font-family='Arial' font-size='20' text-anchor='middle'>B</text><text x='100' y='28' font-family='Arial' font-size='20' text-anchor='middle'>C</text><text x='140' y='28' font-family='Arial' font-size='20' text-anchor='middle'>D</text><text x='20' y='68' font-family='Arial' font-size='20' text-anchor='middle'>C</text><text x='140' y='68' font-family='Arial' font-size='20' text-anchor='middle'>B</text><text x='100' y='108' font-family='Arial' font-size='20' text-anchor='middle'>D</text><text x='100' y='148' font-family='Arial' font-size='20' text-anchor='middle' fill='#e65100' font-weight='bold'>?</text></svg>",
+            "pista": "Pista de Nano Banana: Mira la tercera columna. Tienes C arriba y D en la tercera fila. ¿Puede ir la B en la posición final? Fíjate en el bloque inferior derecho.",
+            "opciones": ["A", "B", "C", "D"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: Minisudoku",
+            "nivel": "Avanzado",
+            "pregunta": "Para completar este minisudoku debes analizar dos pasos. ¿Qué número corresponde a la casilla 'X'?",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='4'/><line x1='80' y1='0' x2='80' y2='160' stroke='#333' stroke-width='4'/><line x1='0' y1='80' x2='160' y2='80' stroke='#333' stroke-width='4'/><line x1='40' y1='0' x2='40' y2='160' stroke='#ccc' stroke-width='2'/><line x1='120' y1='0' x2='120' y2='160' stroke='#ccc' stroke-width='2'/><line x1='0' y1='40' x2='160' y2='40' stroke='#ccc' stroke-width='2'/><line x1='0' y1='120' x2='160' y2='120' stroke='#ccc' stroke-width='2'/><text x='20' y='28' font-family='Arial' font-size='20' text-anchor='middle'>3</text><text x='100' y='28' font-family='Arial' font-size='20' text-anchor='middle'>2</text><text x='140' y='68' font-family='Arial' font-size='20' text-anchor='middle'>1</text><text x='20' y='108' font-family='Arial' font-size='20' text-anchor='middle'>4</text><text x='60' y='148' font-family='Arial' font-size='20' text-anchor='middle'>2</text><text x='140' y='148' font-family='Arial' font-size='20' text-anchor='middle' fill='#d84315' font-weight='bold'>X</text></svg>",
+            "pista": "Pista de Nano Banana: Primero fíjate en la última columna. Ya tienes el 1. Arriba está el 2 en la misma caja, así que no puede ir 2. Tienes que deducir los demás espacios.",
+            "opciones": ["1", "2", "3", "4"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: Minisudoku",
+            "nivel": "Avanzado",
+            "pregunta": "¿Cuál es la suma de los números que faltan en la primera columna vertical?",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='4'/><line x1='80' y1='0' x2='80' y2='160' stroke='#333' stroke-width='4'/><line x1='0' y1='80' x2='160' y2='80' stroke='#333' stroke-width='4'/><line x1='40' y1='0' x2='40' y2='160' stroke='#ccc' stroke-width='2'/><line x1='120' y1='0' x2='120' y2='160' stroke='#ccc' stroke-width='2'/><line x1='0' y1='40' x2='160' y2='40' stroke='#ccc' stroke-width='2'/><line x1='0' y1='120' x2='160' y2='120' stroke='#ccc' stroke-width='2'/><text x='20' y='28' font-family='Arial' font-size='20' text-anchor='middle'>4</text><text x='60' y='28' font-family='Arial' font-size='20' text-anchor='middle'>1</text><text x='20' y='148' font-family='Arial' font-size='20' text-anchor='middle'>2</text></svg>",
+            "pista": "Pista de Nano Banana: En esa columna (la primera) ya tienes el 4 y el 2. Averigua cuáles son los dos que faltan y súmalos.",
+            "opciones": ["4", "5", "6", "7"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 2: Operadores matemáticos sin tabla",
+            "nivel": "Intermedio",
+            "pregunta": "Nano Banana creó una máquina matemática. Calcula el valor de: 5 ♥ 3",
+            "grafico_svg": "<svg viewBox='0 0 200 80' width='100%' style='max-width: 250px;'><rect x='10' y='10' width='180' height='60' rx='10' fill='#fff9c4' stroke='#fbc02d' stroke-width='4'/><text x='100' y='48' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle'>A ♥ B = A + B - 1</text></svg>",
+            "pista": "Pista de Nano Banana: Solo reemplaza la A por 5 y la B por 3 en la fórmula de la máquina: 5 + 3 - 1.",
+            "opciones": ["7", "8", "9", "6"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 2: Operadores matemáticos sin tabla",
+            "nivel": "Intermedio",
+            "pregunta": "Resuelve la operación usando el operador estrella (★): Halla 4 ★ 2",
+            "grafico_svg": "<svg viewBox='0 0 200 80' width='100%' style='max-width: 250px;'><rect x='10' y='10' width='180' height='60' rx='10' fill='#e3f2fd' stroke='#1565c0' stroke-width='4'/><text x='100' y='48' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle'>x ★ y = 2x + y</text></svg>",
+            "pista": "Pista de Nano Banana: '2x' significa el doble de x. Entonces calcula el doble de 4 y súmale el valor de y (que es 2).",
+            "opciones": ["8", "10", "12", "6"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Operadores matemáticos sin tabla",
+            "nivel": "Avanzado",
+            "pregunta": "¡Atención! Tienes que usar la máquina dos veces. Halla el valor de: (3 ♣ 2) ♣ 1",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><rect x='10' y='10' width='230' height='60' rx='10' fill='#f3e5f5' stroke='#7b1fa2' stroke-width='4'/><text x='125' y='48' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle'>P ♣ Q = (P + Q) - 2</text></svg>",
+            "pista": "Pista de Nano Banana: Primero resuelve lo que está en paréntesis (3 ♣ 2). El resultado que te salga, ponlo a competir con el ♣ 1.",
+            "opciones": ["1", "2", "3", "4"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Operadores matemáticos sin tabla",
+            "nivel": "Avanzado",
+            "pregunta": "Esta máquina suma varias veces. Calcula: 3 ▲ 4",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><rect x='10' y='10' width='230' height='60' rx='10' fill='#e8f5e9' stroke='#2e7d32' stroke-width='4'/><text x='125' y='48' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle'>m ▲ n = m + m + n</text></svg>",
+            "pista": "Pista de Nano Banana: La fórmula dice que debes sumar la primera letra dos veces, y luego sumarle la segunda letra. Reemplaza m=3 y n=4.",
+            "opciones": ["7", "10", "11", "14"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: Operadores matemáticos sin tabla",
+            "nivel": "Avanzado",
+            "pregunta": "Hay una trampa al final. Halla el resultado de: (8 ◼ 5) + 3",
+            "grafico_svg": "<svg viewBox='0 0 250 80' width='100%' style='max-width: 300px;'><rect x='10' y='10' width='230' height='60' rx='10' fill='#ffebee' stroke='#c62828' stroke-width='4'/><text x='125' y='48' font-family='Arial' font-size='22' font-weight='bold' text-anchor='middle'>A ◼ B = A - B + 10</text></svg>",
+            "pista": "Pista de Nano Banana: Resuelve primero el paréntesis usando la regla de la máquina (8 - 5 + 10). Al resultado que te dé, no olvides sumarle el +3 que está afuera.",
+            "opciones": ["13", "16", "10", "15"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Operadores matemáticos con tabla",
+            "nivel": "Intermedio",
+            "pregunta": "Observa la tabla secreta de Nano Banana. ¿Cuál es el resultado de 2 ✿ 3?",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='3'/><line x1='40' y1='0' x2='40' y2='160' stroke='#333' stroke-width='3'/><line x1='0' y1='40' x2='160' y2='40' stroke='#333' stroke-width='3'/><line x1='0' y1='0' x2='40' y2='40' stroke='#333' stroke-width='2'/><text x='15' y='32' font-family='Arial' font-size='18' font-weight='bold' fill='#c2185b'>✿</text><text x='60' y='28' font-family='Arial' font-size='18'>1</text><text x='100' y='28' font-family='Arial' font-size='18'>2</text><text x='140' y='28' font-family='Arial' font-size='18'>3</text><text x='20' y='68' font-family='Arial' font-size='18'>1</text><text x='20' y='108' font-family='Arial' font-size='18'>2</text><text x='20' y='148' font-family='Arial' font-size='18'>3</text><text x='60' y='68' font-family='Arial' font-size='18'>2</text><text x='100' y='68' font-family='Arial' font-size='18'>3</text><text x='140' y='68' font-family='Arial' font-size='18'>1</text><text x='60' y='108' font-family='Arial' font-size='18'>3</text><text x='100' y='108' font-family='Arial' font-size='18'>1</text><text x='140' y='108' font-family='Arial' font-size='18'>2</text><text x='60' y='148' font-family='Arial' font-size='18'>1</text><text x='100' y='148' font-family='Arial' font-size='18'>2</text><text x='140' y='148' font-family='Arial' font-size='18'>3</text></svg>",
+            "pista": "Pista de Nano Banana: Busca el 2 en la columna izquierda, avanza por ese camino hasta chocar con el 3 que baja desde arriba.",
+            "opciones": ["1", "2", "3", "4"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Operadores matemáticos con tabla",
+            "nivel": "Intermedio",
+            "pregunta": "Usando la misma tabla ✿ del ejercicio anterior, halla el valor de: 3 ✿ 1",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='3'/><line x1='40' y1='0' x2='40' y2='160' stroke='#333' stroke-width='3'/><line x1='0' y1='40' x2='160' y2='40' stroke='#333' stroke-width='3'/><line x1='0' y1='0' x2='40' y2='40' stroke='#333' stroke-width='2'/><text x='15' y='32' font-family='Arial' font-size='18' font-weight='bold' fill='#c2185b'>✿</text><text x='60' y='28' font-family='Arial' font-size='18'>1</text><text x='100' y='28' font-family='Arial' font-size='18'>2</text><text x='140' y='28' font-family='Arial' font-size='18'>3</text><text x='20' y='68' font-family='Arial' font-size='18'>1</text><text x='20' y='108' font-family='Arial' font-size='18'>2</text><text x='20' y='148' font-family='Arial' font-size='18'>3</text><text x='60' y='68' font-family='Arial' font-size='18'>2</text><text x='100' y='68' font-family='Arial' font-size='18'>3</text><text x='140' y='68' font-family='Arial' font-size='18'>1</text><text x='60' y='108' font-family='Arial' font-size='18'>3</text><text x='100' y='108' font-family='Arial' font-size='18'>1</text><text x='140' y='108' font-family='Arial' font-size='18'>2</text><text x='60' y='148' font-family='Arial' font-size='18'>1</text><text x='100' y='148' font-family='Arial' font-size='18'>2</text><text x='140' y='148' font-family='Arial' font-size='18'>3</text></svg>",
+            "pista": "Pista de Nano Banana: Ahora el 3 está a la izquierda (la fila de abajo) y el 1 está arriba (la primera columna). Únelos.",
+            "opciones": ["1", "2", "3", "0"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 3: Operadores matemáticos con tabla",
+            "nivel": "Avanzado",
+            "pregunta": "Doble desafío con la tabla ✿. Calcula el valor de: (1 ✿ 2) ✿ 3",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='3'/><line x1='40' y1='0' x2='40' y2='160' stroke='#333' stroke-width='3'/><line x1='0' y1='40' x2='160' y2='40' stroke='#333' stroke-width='3'/><line x1='0' y1='0' x2='40' y2='40' stroke='#333' stroke-width='2'/><text x='15' y='32' font-family='Arial' font-size='18' font-weight='bold' fill='#c2185b'>✿</text><text x='60' y='28' font-family='Arial' font-size='18'>1</text><text x='100' y='28' font-family='Arial' font-size='18'>2</text><text x='140' y='28' font-family='Arial' font-size='18'>3</text><text x='20' y='68' font-family='Arial' font-size='18'>1</text><text x='20' y='108' font-family='Arial' font-size='18'>2</text><text x='20' y='148' font-family='Arial' font-size='18'>3</text><text x='60' y='68' font-family='Arial' font-size='18'>2</text><text x='100' y='68' font-family='Arial' font-size='18'>3</text><text x='140' y='68' font-family='Arial' font-size='18'>1</text><text x='60' y='108' font-family='Arial' font-size='18'>3</text><text x='100' y='108' font-family='Arial' font-size='18'>1</text><text x='140' y='108' font-family='Arial' font-size='18'>2</text><text x='60' y='148' font-family='Arial' font-size='18'>1</text><text x='100' y='148' font-family='Arial' font-size='18'>2</text><text x='140' y='148' font-family='Arial' font-size='18'>3</text></svg>",
+            "pista": "Pista de Nano Banana: Resuelve primero el paréntesis buscando en la tabla. El número que encuentres, vuélvelo a buscar en la columna de la izquierda para cruzarlo con el 3.",
+            "opciones": ["1", "2", "3", "0"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Operadores matemáticos con tabla",
+            "nivel": "Avanzado",
+            "pregunta": "Usando la tabla ✿, resuelve la siguiente suma de operaciones: (2 ✿ 2) + (1 ✿ 1)",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='3'/><line x1='40' y1='0' x2='40' y2='160' stroke='#333' stroke-width='3'/><line x1='0' y1='40' x2='160' y2='40' stroke='#333' stroke-width='3'/><line x1='0' y1='0' x2='40' y2='40' stroke='#333' stroke-width='2'/><text x='15' y='32' font-family='Arial' font-size='18' font-weight='bold' fill='#c2185b'>✿</text><text x='60' y='28' font-family='Arial' font-size='18'>1</text><text x='100' y='28' font-family='Arial' font-size='18'>2</text><text x='140' y='28' font-family='Arial' font-size='18'>3</text><text x='20' y='68' font-family='Arial' font-size='18'>1</text><text x='20' y='108' font-family='Arial' font-size='18'>2</text><text x='20' y='148' font-family='Arial' font-size='18'>3</text><text x='60' y='68' font-family='Arial' font-size='18'>2</text><text x='100' y='68' font-family='Arial' font-size='18'>3</text><text x='140' y='68' font-family='Arial' font-size='18'>1</text><text x='60' y='108' font-family='Arial' font-size='18'>3</text><text x='100' y='108' font-family='Arial' font-size='18'>1</text><text x='140' y='108' font-family='Arial' font-size='18'>2</text><text x='60' y='148' font-family='Arial' font-size='18'>1</text><text x='100' y='148' font-family='Arial' font-size='18'>2</text><text x='140' y='148' font-family='Arial' font-size='18'>3</text></svg>",
+            "pista": "Pista de Nano Banana: Encuentra ambos resultados en la tabla y luego súmalos matemáticamente.",
+            "opciones": ["2", "3", "4", "5"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Operadores matemáticos con tabla",
+            "nivel": "Avanzado",
+            "pregunta": "Trabajo de detective. Descubre el valor escondido de 'X' en esta ecuación de la tabla ✿: X ✿ 2 = 1",
+            "grafico_svg": "<svg viewBox='0 0 160 160' width='100%' style='max-width: 200px;'><rect width='160' height='160' fill='#fff' stroke='#333' stroke-width='3'/><line x1='40' y1='0' x2='40' y2='160' stroke='#333' stroke-width='3'/><line x1='0' y1='40' x2='160' y2='40' stroke='#333' stroke-width='3'/><line x1='0' y1='0' x2='40' y2='40' stroke='#333' stroke-width='2'/><text x='15' y='32' font-family='Arial' font-size='18' font-weight='bold' fill='#c2185b'>✿</text><text x='60' y='28' font-family='Arial' font-size='18'>1</text><text x='100' y='28' font-family='Arial' font-size='18'>2</text><text x='140' y='28' font-family='Arial' font-size='18'>3</text><text x='20' y='68' font-family='Arial' font-size='18'>1</text><text x='20' y='108' font-family='Arial' font-size='18'>2</text><text x='20' y='148' font-family='Arial' font-size='18'>3</text><text x='60' y='68' font-family='Arial' font-size='18'>2</text><text x='100' y='68' font-family='Arial' font-size='18'>3</text><text x='140' y='68' font-family='Arial' font-size='18'>1</text><text x='60' y='108' font-family='Arial' font-size='18'>3</text><text x='100' y='108' font-family='Arial' font-size='18'>1</text><text x='140' y='108' font-family='Arial' font-size='18'>2</text><text x='60' y='148' font-family='Arial' font-size='18'>1</text><text x='100' y='148' font-family='Arial' font-size='18'>2</text><text x='140' y='148' font-family='Arial' font-size='18'>3</text></svg>",
+            "pista": "Pista de Nano Banana: Ubícate en la columna de arriba donde está el número 2. Baja por esa línea hasta encontrar el resultado '1'. ¿En qué fila a la izquierda estás?",
+            "opciones": ["1", "2", "3", "0"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Criptograma numérico",
+            "nivel": "Intermedio",
+            "pregunta": "Descubre el número oculto detrás de la letra A en esta suma vertical.",
+            "grafico_svg": "<svg viewBox='0 0 150 150' width='100%' style='max-width: 150px;'><rect width='150' height='150' rx='10' fill='#f1f8e9' stroke='#8bc34a' stroke-width='4'/><text x='90' y='45' font-family='monospace' font-size='32' text-anchor='end'>2 A</text><text x='30' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>+</text><text x='90' y='90' font-family='monospace' font-size='32' text-anchor='end'>1 5</text><line x1='20' y1='105' x2='100' y2='105' stroke='#333' stroke-width='3'/><text x='90' y='135' font-family='monospace' font-size='32' text-anchor='end'>4 3</text></svg>",
+            "pista": "Pista de Nano Banana: Fíjate en la columna de las unidades a la derecha. ¿Qué número sumado a 5 termina en 3 (o en 13)?",
+            "opciones": ["6", "7", "8", "9"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: Criptograma numérico",
+            "nivel": "Intermedio",
+            "pregunta": "En esta resta misteriosa, ¿qué valor tiene la letra B?",
+            "grafico_svg": "<svg viewBox='0 0 150 150' width='100%' style='max-width: 150px;'><rect width='150' height='150' rx='10' fill='#fff3e0' stroke='#ff9800' stroke-width='4'/><text x='90' y='45' font-family='monospace' font-size='32' text-anchor='end'>5 4</text><text x='30' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>-</text><text x='90' y='90' font-family='monospace' font-size='32' text-anchor='end'>B 2</text><line x1='20' y1='105' x2='100' y2='105' stroke='#333' stroke-width='3'/><text x='90' y='135' font-family='monospace' font-size='32' text-anchor='end'>2 2</text></svg>",
+            "pista": "Pista de Nano Banana: Revisa la columna de las decenas (izquierda). A 5 le quitas B y te sobra 2. ¿Cuánto le quitaste?",
+            "opciones": ["2", "3", "4", "5"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Criptograma numérico",
+            "nivel": "Avanzado",
+            "pregunta": "Resuelve la suma oculta para encontrar los valores de A y B. Luego, calcula la suma: A + B",
+            "grafico_svg": "<svg viewBox='0 0 150 150' width='100%' style='max-width: 150px;'><rect width='150' height='150' rx='10' fill='#e1bee7' stroke='#9c27b0' stroke-width='4'/><text x='90' y='45' font-family='monospace' font-size='32' text-anchor='end'>A 3</text><text x='30' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>+</text><text x='90' y='90' font-family='monospace' font-size='32' text-anchor='end'>2 B</text><line x1='20' y1='105' x2='100' y2='105' stroke='#333' stroke-width='3'/><text x='90' y='135' font-family='monospace' font-size='32' text-anchor='end'>7 8</text></svg>",
+            "pista": "Pista de Nano Banana: En las unidades: 3 + B = 8. En las decenas: A + 2 = 7. Descubre ambos números y luego súmalos juntos.",
+            "opciones": ["8", "10", "12", "9"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Criptograma numérico",
+            "nivel": "Avanzado",
+            "pregunta": "¡Cuidado, esta resta pide prestado! Halla el valor de la letra A.",
+            "grafico_svg": "<svg viewBox='0 0 150 150' width='100%' style='max-width: 150px;'><rect width='150' height='150' rx='10' fill='#e0f7fa' stroke='#00bcd4' stroke-width='4'/><text x='90' y='45' font-family='monospace' font-size='32' text-anchor='end'>8 A</text><text x='30' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>-</text><text x='90' y='90' font-family='monospace' font-size='32' text-anchor='end'>3 7</text><line x1='20' y1='105' x2='100' y2='105' stroke='#333' stroke-width='3'/><text x='90' y='135' font-family='monospace' font-size='32' text-anchor='end'>4 5</text></svg>",
+            "pista": "Pista de Nano Banana: Fíjate en las decenas, 8 - 3 normalmente es 5, pero abajo dice 4. Eso significa que el 8 le prestó a la A. Piensa qué número sumado a 5 te da 7, y réstale los 10 que le prestó.",
+            "opciones": ["1", "2", "3", "4"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: Criptograma numérico",
+            "nivel": "Avanzado",
+            "pregunta": "Encuentra A y B en esta suma de 3 cifras. Luego, realiza la resta: A - B",
+            "grafico_svg": "<svg viewBox='0 0 180 150' width='100%' style='max-width: 180px;'><rect width='180' height='150' rx='10' fill='#fff9c4' stroke='#fbc02d' stroke-width='4'/><text x='130' y='45' font-family='monospace' font-size='32' text-anchor='end'>1 A B</text><text x='30' y='90' font-family='monospace' font-size='32' fill='#d32f2f'>+</text><text x='130' y='90' font-family='monospace' font-size='32' text-anchor='end'>2 3 4</text><line x1='20' y1='105' x2='140' y2='105' stroke='#333' stroke-width='3'/><text x='130' y='135' font-family='monospace' font-size='32' text-anchor='end'>3 8 9</text></svg>",
+            "pista": "Pista de Nano Banana: Unidades: B + 4 = 9. Decenas: A + 3 = 8. Cuando descubras ambos, réstalos.",
+            "opciones": ["0", "1", "2", "5"],
+            "respuestaCorrecta": 0
+        }
+    ]
+}

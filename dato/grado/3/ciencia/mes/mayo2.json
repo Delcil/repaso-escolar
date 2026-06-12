@@ -1,0 +1,206 @@
+{
+    "titulo": "Misión: Los Misterios del Cuerpo y la Vida",
+    "descripcion": "Esta misión contiene preguntas muy detalladas sobre cómo funciona nuestro cuerpo por dentro. Lee cuidadosamente cada opción antes de decidir.",
+    "preguntas": [
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Básico",
+            "pregunta": "¿Qué órgano del sistema respiratorio es un tubo que brinda una vía abierta al aire inhalado y exhalado desde los pulmones?",
+            "pista": "Pista del Científico: Es un conducto que va desde la laringe hasta los bronquios.",
+            "opciones": ["La faringe", "El esófago", "La tráquea", "La fosa nasal"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué estructura se encarga de cerrar la glotis durante la deglución (cuando pasamos saliva o comida) para evitar ahogarnos?",
+            "pista": "Pista del Científico: Se encuentra en la laringe.",
+            "opciones": ["La epiglotis", "Las cuerdas vocales", "El bronquiolo", "El alvéolo"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Intermedio",
+            "pregunta": "El intercambio gaseoso (donde la sangre recibe oxígeno y suelta dióxido de carbono) ocurre en unos sacos terminales. ¿Cómo se llaman?",
+            "pista": "Pista del Científico: Están al final del árbol bronquial, parecen pequeños racimos de uvas.",
+            "opciones": ["Bronquios", "Pulmones", "Alvéolos", "Fosas nasales"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Básico",
+            "pregunta": "Durante el proceso de la respiración, ¿cómo se llama la fase en la que se extrae el oxígeno del aire y los pulmones se inflan?",
+            "pista": "Pista del Científico: Es cuando tomamos aire hacia adentro.",
+            "opciones": ["Espiración", "Inspiración", "Transpiración", "Circulación"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 1: El sistema respiratorio",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué gas de desecho, producido en las células, es expulsado de nuestro cuerpo durante la espiración?",
+            "pista": "Pista del Científico: Su símbolo químico es CO2.",
+            "opciones": ["Oxígeno", "Nitrógeno", "Monóxido de carbono", "Dióxido de carbono"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Básico",
+            "pregunta": "El corazón es un órgano muscular hueco ubicado en el centro del tórax. ¿En cuántas cavidades está dividido internamente?",
+            "pista": "Pista del Científico: Son 2 aurículas y 2 ventrículos. Suma las cantidades.",
+            "opciones": ["Dos cavidades", "Tres cavidades", "Cuatro cavidades", "Seis cavidades"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Intermedio",
+            "pregunta": "¿Cómo se llaman los vasos sanguíneos de paredes gruesas que nacen en los ventrículos y LLEVAN la sangre DESDE el corazón al resto del cuerpo?",
+            "pista": "Pista del Científico: Son los vasos más fuertes que soportan la presión del bombeo.",
+            "opciones": ["Venas", "Arterias", "Capilares", "Aurículas"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Intermedio",
+            "pregunta": "¿Qué tipo de vasos sanguíneos son muy finos y de paredes muy delgadas, cuya única función es favorecer el intercambio gaseoso?",
+            "pista": "Pista del Científico: Son los que unen las venas con las arterias en los tejidos.",
+            "opciones": ["Los capilares", "Las venas cavas", "Las arterias pulmonares", "Los ventrículos"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Avanzado",
+            "pregunta": "El sistema circulatorio tiene dos circuitos. ¿Cuál es el que se encarga de conducir a todo el organismo la sangre limpia y oxigenada?",
+            "pista": "Pista del Científico: Es el recorrido más largo que hace la sangre.",
+            "opciones": ["Circulación menor", "Circulación pulmonar", "Circulación mayor o sistémica", "Circulación capilar"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 2: El sistema circulatorio",
+            "nivel": "Avanzado",
+            "pregunta": "¿Qué fluido líquido recorre el organismo transportando células, sustancias nutritivas y oxígeno por todo el cuerpo?",
+            "pista": "Pista del Científico: Es impulsada por las arterias.",
+            "opciones": ["El plasma", "La sangre", "El sudor", "La linfa"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Básico",
+            "pregunta": "El Sistema Nervioso Central (SNC) está constituido por la médula espinal y un órgano superior muy complejo. ¿Cuál es?",
+            "pista": "Pista del Científico: Está conformado por el cerebro, el cerebelo y el bulbo raquídeo.",
+            "opciones": ["El cráneo", "El encéfalo", "El nervio óptico", "El corazón"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Avanzado",
+            "pregunta": "El encéfalo y la médula espinal están protegidos por tres membranas llamadas meninges. ¿Cuál de ellas es la membrana intermedia?",
+            "pista": "Pista del Científico: Su nombre recuerda a las arañas.",
+            "opciones": ["Duramadre", "Piamadre", "Aracnoides", "Mielina"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Avanzado",
+            "pregunta": "Para protegerse de los golpes, el encéfalo y la médula espinal flotan en un líquido incoloro y transparente. ¿Cómo se llama?",
+            "pista": "Pista del Científico: Su nombre une la cabeza (céfalo) y la columna (raquis).",
+            "opciones": ["Líquido amniótico", "Líquido cefalorraquídeo", "Plasma sanguíneo", "Agua destilada"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Intermedio",
+            "pregunta": "La neurona es la célula fundamental del sistema nervioso. Tiene una prolongación única y larga que saca el impulso desde el cuerpo de la célula. ¿Cómo se llama?",
+            "pista": "Pista del Científico: No son las ramificaciones cortas (dendritas), sino la cola larga.",
+            "opciones": ["Soma", "Núcleo", "Dendrita", "Axón"],
+            "respuestaCorrecta": 3
+        },
+        {
+            "tema": "Cap. 3: Sistema nervioso central",
+            "nivel": "Intermedio",
+            "pregunta": "¿Qué parte de la neurona se encarga de recibir los impulsos nerviosos que vienen de otras neuronas?",
+            "pista": "Pista del Científico: Son prolongaciones cortas que parecen las ramas de un arbolito.",
+            "opciones": ["Las dendritas", "El axón", "El soma", "Las meninges"],
+            "respuestaCorrecta": 0
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Básico",
+            "pregunta": "La función principal del sistema excretor es eliminar sustancias tóxicas y desechos del cuerpo. ¿Cuáles son los órganos principales encargados de filtrar la sangre?",
+            "pista": "Pista del Científico: Son dos órganos con forma de frijol situados a la altura de la cintura.",
+            "opciones": ["Los pulmones", "Los riñones", "Los uréteres", "La vejiga"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Intermedio",
+            "pregunta": "Una vez que los riñones producen la orina, esta viaja por dos tubos largos hasta llegar a la vejiga. ¿Cómo se llaman esos tubos?",
+            "pista": "Pista del Científico: Su nombre empieza con 'U', pero no es la uretra.",
+            "opciones": ["Bronquios", "Arterias renales", "Uréteres", "Capilares"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Básico",
+            "pregunta": "La orina se almacena temporalmente en un órgano elástico. Cuando está lleno, la orina sale al exterior a través de un conducto. ¿Cómo se llama ese conducto final?",
+            "pista": "Pista del Científico: Es la última parte del sistema excretor urinario.",
+            "opciones": ["Uréter", "Vejiga", "Uretra", "Intestino"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Avanzado",
+            "pregunta": "Además de los riñones, otros órganos eliminan desechos. ¿Qué órgano elimina sustancias tóxicas que forman parte de la bilis y se expulsan con las heces?",
+            "pista": "Pista del Científico: Es un órgano interno muy grande que también ayuda en la digestión.",
+            "opciones": ["El estómago", "Los pulmones", "El hígado", "El corazón"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 4: El sistema excretor",
+            "nivel": "Intermedio",
+            "pregunta": "Para mantener sano el sistema excretor y facilitar el funcionamiento de los riñones, ¿cuántos litros de agua se recomienda beber diariamente?",
+            "pista": "Pista del Científico: Es equivalente a unos 8 vasos grandes.",
+            "opciones": ["Medio litro", "Un litro", "Dos litros", "Cinco litros"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 5: El desarrollo humano",
+            "nivel": "Básico",
+            "pregunta": "El ciclo vital del desarrollo humano inicia en el vientre de la madre, formándose durante nueve meses. ¿Cómo se llama esta primera etapa?",
+            "pista": "Pista del Científico: Su nombre significa 'antes del nacimiento'.",
+            "opciones": ["Etapa de Infancia", "Etapa Prenatal", "Etapa de Niñez", "Etapa de Juventud"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 5: El desarrollo humano",
+            "nivel": "Intermedio",
+            "pregunta": "¿Qué etapa del desarrollo se da desde que el niño nace hasta aproximadamente los 6 años, donde se gesta su futura personalidad?",
+            "pista": "Pista del Científico: Es la etapa en la que los niños van al jardín (educación inicial).",
+            "opciones": ["Niñez", "Pubertad", "Infancia", "Adolescencia"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 5: El desarrollo humano",
+            "nivel": "Básico",
+            "pregunta": "A partir de los 7 años y hasta los 12 años, ocurre el ingreso a la escuela y el niño convive con seres de su misma edad. ¿Qué etapa es?",
+            "pista": "Pista del Científico: Es la etapa en la que te encuentras tú en este momento cursando la primaria.",
+            "opciones": ["Juventud", "Niñez", "Infancia", "Adultez"],
+            "respuestaCorrecta": 1
+        },
+        {
+            "tema": "Cap. 5: El desarrollo humano",
+            "nivel": "Avanzado",
+            "pregunta": "¿En qué etapa de la vida el individuo alcanza la plenitud de su desarrollo biológico y psíquico, y su personalidad es firme y segura?",
+            "pista": "Pista del Científico: Va desde los 26 hasta los 60 años aproximadamente.",
+            "opciones": ["Juventud", "Adolescencia", "Adultez", "Ancianidad"],
+            "respuestaCorrecta": 2
+        },
+        {
+            "tema": "Cap. 5: El desarrollo humano",
+            "nivel": "Intermedio",
+            "pregunta": "Es la etapa final de la vida, caracterizada por una creciente disminución de la fuerza física y baja de las cualidades de su actividad mental. ¿De qué etapa hablamos?",
+            "pista": "Pista del Científico: Empieza a partir de los 60 años en adelante.",
+            "opciones": ["Adultez mayor", "Ancianidad", "Juventud", "Adolescencia tardía"],
+            "respuestaCorrecta": 1
+        }
+    ]
+}
